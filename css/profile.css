@@ -1,0 +1,27 @@
+.profileBanner {
+   height: 50%;       
+}
+
+.profileImage {
+    align: center;
+    margin-bottom: -50px;
+}
+
+#leftBox {
+    display: inline;
+    width: 50%;
+    height: 200px;
+   float: left;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#rightBox {
+    float: right;
+    width: 50%;
+    height: 200px;
+    display: inline;
+}
