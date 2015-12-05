@@ -105,6 +105,7 @@
 
 .question {
     width: 80%;
+    margin-bottom:20px;
 }
 
 .fbMessage {
@@ -136,4 +137,9 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+}
+
+#companyQA {
+    padding-left: 15px;
+    padding-right: 15px;
 }
