@@ -18,6 +18,8 @@
 
 ?>
 
+
+
 <!DOCTYPE html>
     <html lang="en">
 
@@ -36,7 +38,6 @@
         <!-- Custom CSS -->
         <link href="css/business-frontpage.css" rel="stylesheet">
         <link href="css/profile.css" rel="stylesheet">
-        <link href="css/navbar.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +49,38 @@
     </head>
 
     <body>
-        <?php include 'navbar.php'; ?>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
 
         <!-- Page Content -->
         <div class="container">
@@ -115,7 +147,7 @@
                                 $eventRow = mysqli_query($conn, $query); //Execute query
                            
                                 while ($row = $eventRow->fetch_assoc()) {
-                                    echo '<div class="leftWork"><div class="jobTitle">Carpenter</div><div class="jobLength">December 1632 - January 1946</div><div class="jobDesc"><b>Job Description -</b> </div></div>';
+                                    echo '<div class="leftWork"><div class="jobTitle">'.$row['name'].'</div><div class="jobLength">'.$row['type'].'</div><div class="jobDesc"><b>Job Description -</b> '.$row['about'].' </div></div>';
                                 }
                             }
                         ?>
