@@ -113,7 +113,7 @@
 		
 		if ($passOne == $passTwo && $passOne != null) {
 			echo "<script>alert(\"Passwords do match\")</script>";
-		} else {
+		} else if ($passOne != null) {
 			echo "<script>alert(\"Passwords do not match\")</script>";
 		}
 	?>
