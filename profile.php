@@ -4,14 +4,15 @@
     //$id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
     $query = "SELECT * FROM user WHERE user_id = 1";
     $userrow = mysqli_query($conn, $query); //Execute query.
+    $row = $userrow->fetch_assoc();
 
     if(mysqli_num_rows($userrow) > 0){
-        $userid    = $userrow['user_id'];
-        $firstName = $userrow['first_name'];
-        $lastName     = $userrow['last_name'];
-        $dob     = $userrow['date_of_birth'];
-        $postcode  = $userrow['postcode'];
-        $email = $userrow['email'];
+        $userid    = $row['user_id'];
+        $firstName = $row['first_name'];
+        $lastName     = $row['last_name'];
+        $dob     = $row['date_of_birth'];
+        $postcode  = $row['postcode'];
+        $email = $row['email'];
         
     }
 
