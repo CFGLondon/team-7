@@ -75,7 +75,7 @@
                     } else {
                 ?>
 
-                    <ul class="nav navbar-nav navbar-right-2">
+                    <ul class="nav navbar-nav navbar-right extraPadding">
                         <li>
                             <p>
                                 <?php     
