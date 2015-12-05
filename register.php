@@ -67,40 +67,39 @@
     </header>    
     
 	<form method="get" action="#"  id="register">
-		<h1>Register for Route 21 </h1>
+		<h1>Registration</h1>
 		<hr>
 		<br>
 		<b>First name: </b>
-		<input type="text" name="firstName" placeholder="Name" class="form-control" required><br>
+		<input type="text" name="firstName" placeholder="John" class="form-control" required><br>
 		<b>Last name: </b>
-		<input type="text" name="lastName" placeholder="Name" class="form-control" required><br>
+		<input type="text" name="lastName" placeholder="Smith" class="form-control" required><br>
 		
 		<b>Date of birth: </b>
 		<input type="date" name="DOB" class="form-control" required><br>
 		
 		<b>Password:</b>
-		<input type="password" name="password" placeholder="password" class="form-control" required><br>
+		<input type="password" name="password" class="form-control" required><br>
 		
-		<b>confirm password:</b>
-		<input type="password" name="password2" placeholder="confirm password" class="form-control" required><br>
+		<b>Confirm Password:</b>
+		<input type="password" name="password2" class="form-control" required><br>
 		
-		<b> postcode: </b>
-		<input type="text" name="postcode" placeholder="phone number" class="form-control" required><br>
+		<b>Postcode:</b>
+		<input type="text" name="postcode" placeholder="SM4 4GF" class="form-control" required><br>
 		
-		<b>Email: </b>
-		<input type="text" name="email" placeholder="email" class="form-control" required><br>
+		<b>Email:</b>
+		<input type="text" name="email" placeholder="Johnsmith@gmail.com" class="form-control" required><br>
 		
 		<div id="avatar"> 
 			<b>Avatar: </b>
-			<div id="avDesc"> upload a profile picture for others to see on route21 </div>
-			<img src="profile-img-placeholder.gif"> </img>
-			<input type="text" name="avatar" placeholder="avatar" class="form-control"><br>
+			<div id="avDesc">Upload a profile picture:</div>
+			<img src="profile-img-placeholder.gif"></img>
+			<input type="text" name="avatar" class="form-control"><br>
 			<input type="submit" name="submitPicture" value="upload" class="btn"> 
 		</div>
 		<span>Phone number:</span>
-		<input type="text" name="phone" placeholder="phone number" class="form-control"><br>
+		<input type="text" name="phone" placeholder="07890123456" class="form-control"><br>
 		
-	
 		<input type="submit" name="register" value="register" class="btn">
 	</form>
 	<?php
