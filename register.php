@@ -5,16 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
-	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
 
-    <title>Register as a new user</title>
+    <title>Registration</title>
 
-    <!-- Bootstrap -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/profile.css" rel="stylesheet">
+    <link href="css/business-frontpage.css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,12 +19,12 @@
       <script src = "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
     
+    <script src="js/jquery.js"></script>
     <script src="js/nav.js"></script>
     
     <style>
-       
 		.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-		background-color: #eeeeea;
+		  background-color: #eeeeea;
 		}
 		
 		#search { 
@@ -60,6 +56,16 @@
 <body>
     <?php include 'navbar.php'; ?>
 
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--<h1 class="tagline">Route 21</h1>-->
+                </div>
+            </div>
+        </div>
+    </header>    
+    
 	<form method="get" action="#"  id="register">
 		<h1>Register for Route 21 </h1>
 		<hr>
