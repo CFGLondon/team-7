@@ -29,7 +29,6 @@
     <script>
         $(function() {
             $('#logForm').submit(function(event) {
-                alert("hi");
             var formData = {
                 'email' : $('.logEmail').val(),
                 'password' : $('.logUserPass').val()
@@ -99,7 +98,7 @@
 
                     <div class="loginForm">
                         <form id="logForm" action="php/login.php" method="POST"> 
-                            <input type="email" name="log_email" placeholder="Email" class="logUserName textField" required/> 
+                            <input type="email" name="log_email" placeholder="Email" class="logEmail textField" required/> 
                             <input type="password" name="log_password" placeholder="Password" class="logUserPass textField" required/> 
 
                             <input type="submit" class="btn btn-info" value="Log In" id="submit"/>		 			
