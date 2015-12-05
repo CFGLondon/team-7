@@ -98,8 +98,8 @@
 
                     <div class="loginForm">
                         <form id="logForm" action="php/login.php" method="POST"> 
-                            <input type="email" name="email" placeholder="Email" class="logEmail textField" required/> 
-                            <input type="password" name="password" placeholder="Password" class="logUserPass textField" required/> 
+                            <input type="email" name="log_email" placeholder="Email" class="logEmail textField" required/> 
+                            <input type="password" name="log_password" placeholder="Password" class="logUserPass textField" required/> 
 
                             <input type="submit" class="btn btn-info" value="Log In" id="submit"/>		 			
                         </form>
