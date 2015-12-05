@@ -87,8 +87,6 @@
 	<? 
 		include 'connect.php';
 				
-		$conUp = mysqli_ping($conn);
-		var_dump($conUp);
 	
 		if(isset($_POST["createEvent"]))  {
 			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"])) {
@@ -99,13 +97,16 @@
 				$location = $_POST["location"];
 				$desc = $_POST["description"];
 				
-				$stmnt = "INSERT INTO events VALUES(null, $eventName, $date, $location, $desc, null, null, null)";		
+				$stmnt = "INSERT INTO events VALUES(null, \"$eventName\", \"$date\", \"$location\", \"$desc\", null, null, '1')"; 
 				
 				$result = mysqli_query($conn, $stmnt);
 				
 				if($result != false) {
 					
 					echo "success";
+				} else {
+					
+					echo "failed";
 				}
 			}
 		}
