@@ -15,6 +15,8 @@
                 </ul>
 
             <?php
+            echo basename($_SERVER['PHP_SELF']);
+            
                 session_start();
                 include 'connect.php';
 
