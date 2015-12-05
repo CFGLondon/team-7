@@ -30,7 +30,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Profile <?php print(isset($firstName) ? $firstName . ' ' . $lastName : 'Unknown'); ?> - Route21</title>
+        <title><?php print(isset($firstName) ? $firstName . ' ' . $lastName : 'Unknown'); ?>'s Profile | Route21</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
