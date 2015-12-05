@@ -87,7 +87,7 @@
                             }
                         ?></p>
                         </li>
-                        <li><a href="">Logout</a></li>
+                        <li><a style="padding: 0px; margin-left: 26px;" href="">Logout</a></li>
                     </ul>
 
                     <?php } ?>
