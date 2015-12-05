@@ -1,4 +1,5 @@
 <?php 
+   session_start();
    include 'connect.php';
 
     $id = isset($_GET['id']) ? intval($_GET['id']) : (isset($_SESSION['loggedinUser']) ? $_SESSION['loggedinUser'] : 1); 
