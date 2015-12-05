@@ -1,7 +1,7 @@
 <?php 
    include 'connect.php';
 
-    $id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
+    $id = isset($_GET['id']) ? intval($_GET['id']) : (isset($_SESSION['loggedinUser']) ? $_SESSION['loggedinUser'] : 1); 
     $query = "SELECT * FROM user WHERE user_id = " . $id;
     $userrow = mysqli_query($conn, $query); //Execute query.
     $row = $userrow->fetch_assoc();
@@ -29,7 +29,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Profile <?php print(isset($usersname) ? $usersname : 'Unknown'); ?> - Route21</title>
+        <title>Profile <?php print(isset($firstName) ? $firstName . ' ' . $lastName : 'Unknown'); ?> - Route21</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -92,9 +92,9 @@
             <hr style="margin-top: -20px;">
 
             <div class="row">
-                <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b><?php echo($firstName); ?></b><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
+                <div id="leftBox"><div class="content"><h3>Details</h4><b>Name: </b><?php echo($firstName); ?><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
             
-                <div id="rightBox"><h3>Skills and Interests</h3><b>Interest(s):</b>
+                <div id="rightBox"><h3>Skills and Interests</h3>
                     <?php
                         $query = "SELECT * FROM interest WHERE user_id = " . $id;
                         $userrow = mysqli_query($conn, $query); //Execute query.
@@ -113,11 +113,19 @@
                 <div id="sectionBody">
                     <div class="sectionHeader"><h3 style="margin: 0;">Events Attended</h3></div>
                     <div class="eventContent">
-                        <div class="event">.</div>
-                        <div class="event">.</div>
-                        <div class="event">.</div>
-                        <div class="event">.</div>
-                        <div class="event">.</div>
+                        <?php
+                            $query = "SELECT * FROM user_events WHERE user_id = " . $id;
+                            $userrow = mysqli_query($conn, $query); //Execute query.
+
+                            while ($row = $userrow->fetch_assoc()) {
+                                $query = "SELECT * FROM events WHERE event_id = " . $row['event_id'];
+                                $eventRow = mysqli_query($conn, $query); //Execute query
+                           
+                                while ($row = $eventRow->fetch_assoc()) {
+                                    echo '<div class="event"><div class="caption">' . $row['name'] . '</div></div>';
+                                }
+                            }
+                        ?>
                     </div>
                 </div>
             </div>

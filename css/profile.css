@@ -46,6 +46,9 @@
     margin: 10px;
     display: inline-block;
     overflow: hidden;
+    position: relative;
+    background-image: url("../Assets/canary.jpg");
+    background-size: cover;
 }
 
 .workContent {
@@ -89,4 +92,22 @@
 
 .jobDesc {
        font-weight: 100;
+}
+
+.caption {
+    position: absolute;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-top: 1px solid black;
+    bottom: 0px;
+    background-color: #fff;
+}
+
+#companyQA {
+    
+}
+
+.question {
+    width: 80%;
 }

@@ -59,7 +59,7 @@
 </head>
 
 <body>
-
+<?php echo $_SESSION['loggedinUser']; ?>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse" role="navigation">
         <div class="container">

@@ -65,54 +65,58 @@
 		<!-- /.container -->
 	</nav>	
 	
-	<form method="post" action="#"  id="register">
-		<h1> Create an event </h1>
+	<form method="get" action="#"  id="register">
+		<h1>Register for Route 21 </h1>
 		<hr>
 		<br>
-		<b>Event Name: </b>
-		<input type="text" name="eventName" placeholder="Name" class="form-control"><br>
-		<b>Date: </b>
-		<input type="text" name="date" placeholder="Name" class="form-control"><br>
+		<b>First name: </b>
+		<input type="text" name="firstName" placeholder="Name" class="form-control" required><br>
+		<b>Last name: </b>
+		<input type="text" name="lastName" placeholder="Name" class="form-control" required><br>
 		
-		<b>Location: </b>
+		<b>Date of birth: </b>
+		<input type="date" name="DOB" class="form-control" required><br>
 		
-		<input type="text" name="location" placeholder="date of birth" class="form-control"><br>
-		<b>Description:</b>
-		<input type="test" name="description" placeholder="description" class="form-control"><br>
+		<b>Password:</b>
+		<input type="password" name="password" placeholder="password" class="form-control" required><br>
 		
-		<input type="submit" name="createEvent" value="create event" class="btn">
+		<b>confirm password:</b>
+		<input type="password" name="password2" placeholder="confirm password" class="form-control" required><br>
+		
+		<b> postcode: </b>
+		<input type="text" name="postcode" placeholder="phone number" class="form-control" required><br>
+		
+		<b>Email: </b>
+		<input type="text" name="email" placeholder="email" class="form-control" required><br>
+		
+		<div id="avatar"> 
+			<b>Avatar: </b>
+			<div id="avDesc"> upload a profile picture for others to see on route21 </div>
+			<img src="profile-img-placeholder.gif"> </img>
+			<input type="text" name="avatar" placeholder="avatar" class="form-control"><br>
+			<input type="submit" name="submitPicture" value="upload" class="btn"> 
+		</div>
+		<span>Phone number:</span>
+		<input type="text" name="phone" placeholder="phone number" class="form-control"><br>
+		
+	
+		<input type="submit" name="register" value="register" class="btn">
 	</form>
-	
-	
-	<? 
-		include 'connect.php';
-				
-	
-		if(isset($_POST["createEvent"]))  {
-			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"])) {
-				
+	<?php
+		$first = $_GET['firstName'];
+		$last = $_GET['lastName'];
+		$DOB = $_GET['DOB'];
+		$passOne = $_GET['password'];
+		$passTwo = $_GET['password2'];
+		$email = $_GET['email'];
+		$postcode = $_GET[''];
 		
-				$eventName = $_POST["eventName"];
-				$date = $_POST["date"];
-				$location = $_POST["location"];
-				$desc = $_POST["description"];
-				
-				$stmnt = "INSERT INTO events VALUES(null, \"$eventName\", \"$date\", \"$location\", \"$desc\", null, null, '1')"; 
-				echo "<script type='text/javascript'>alert('$stmnt');</script>";
-				$result = mysqli_query($conn, $stmnt);
-				
-				if($result != false) {
-					
-					echo "success";
-				} else {
-					
-					echo "failed";
-				}
-			}
+		if ($passOne == $passTwo && $passOne != null) {
+			echo "<script>alert(\"Passwords do match\")</script>";
+		} else if ($passOne != null) {
+			echo "<script>alert(\"Passwords do not match\")</script>";
 		}
-		mysqli_close($conn);
-	
-	?> 
+	?>
 
 </body>
 </html>
