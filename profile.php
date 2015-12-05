@@ -21,7 +21,15 @@
         }
         
     }
+
+
+
 ?>
+
+<script>
+    console.log(<? echo json_encode($userid); ?>);
+</script>
+
 
 <!DOCTYPE html>
     <html lang="en">
