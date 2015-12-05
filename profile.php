@@ -104,13 +104,13 @@
                             echo $row['description'] . '<br>';
                         }
                     ?>
-					<form>
+					<form method = "get">
 						<input type = "text" name = "trait"></br>
 						<select name = "type">
 							<option value = "skill">Skill</option>
 							<option value = "interest">Interest</option>
 						</select>
-						<submit>
+						<input type = "submit" name = "sub">
 					</form>
                 </div>
             </div>
