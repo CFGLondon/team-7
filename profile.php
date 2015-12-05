@@ -97,7 +97,7 @@
             
                 <div id="rightBox"><h3>Skills and Interests</h3>
                     <?php
-                        $query = "SELECT * FROM interest WHERE user_id = " . $id;
+                        $query = "SELECT * FROM interest WHERE user_id = " . $id . "ORDER BY type;" ;
                         $userrow = mysqli_query($conn, $query); //Execute query.
 
                         while ($row = $userrow->fetch_assoc()) {
@@ -105,8 +105,10 @@
                         }
                     ?>
 					<form>
-						<input type = "text" name = "trait">
+						<input type = "text" name = "trait"></br>
 						<select name = "type">
+							<option value = "skill">Skill</option>
+							<option value = "interest">Interest</option>
 						<submit>
 					</form>
                 </div>
