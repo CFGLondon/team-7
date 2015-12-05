@@ -70,24 +70,24 @@
 		<hr>
 		<br>
 		<b>First name: </b>
-		<input type="text" name="firstName" placeholder="Name" class="form-control"><br>
+		<input type="text" name="firstName" placeholder="Name" class="form-control" required><br>
 		<b>Last name: </b>
-		<input type="text" name="lastName" placeholder="Name" class="form-control"><br>
+		<input type="text" name="lastName" placeholder="Name" class="form-control" required><br>
 		
 		<b>Date of birth: </b>
-		<input type="text" name="DOB" placeholder="date of birth" class="form-control"><br>
+		<input type="date" name="DOB" class="form-control" required><br>
 		
 		<b>Password:</b>
-		<input type="password" name="password" placeholder="password" class="form-control"><br>
+		<input type="password" name="password" placeholder="password" class="form-control" required><br>
 		
 		<b>confirm password:</b>
-		<input type="password" name="password2" placeholder="confirm password" class="form-control"><br>
+		<input type="password" name="password2" placeholder="confirm password" class="form-control" required><br>
 		
 		<b> postcode: </b>
-		<input type="text" name="postcode" placeholder="phone number" class="form-control"><br>
+		<input type="text" name="postcode" placeholder="phone number" class="form-control" required><br>
 		
 		<b>Email: </b>
-		<input type="text" name="email" placeholder="email" class="form-control"><br>
+		<input type="text" name="email" placeholder="email" class="form-control" required><br>
 		
 		<div id="avatar"> 
 			<b>Avatar: </b>
@@ -105,6 +105,7 @@
 	<?php
 		$first = $_GET['firstName'];
 		$last = $_GET['lastName'];
+		$DOB = $_GET['DOB'];
 	?>
 
 </body>
