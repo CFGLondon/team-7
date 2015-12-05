@@ -84,7 +84,7 @@
 						$type = $_GET["type"];
 						$description = $_GET["desc"];
 							
-						$query = "INSERT INTO interest VALUES ('$type', '$description')";
+						$query = "INSERT INTO interest VALUES ($id, '$type', '$description')";
 						mysqli_query($conn, $query);
 					?>
                 </div>
