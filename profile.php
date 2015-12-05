@@ -1,21 +1,22 @@
 <?php 
    include 'connect.php';
 
-    //$id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
-    $query = "SELECT * FROM user WHERE user_id = 1";
+    $id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
+    $query = "SELECT * FROM user WHERE user_id = " . $id;
     $userrow = mysqli_query($conn, $query); //Execute query.
+    $row = $userrow->fetch_assoc();
 
     if(mysqli_num_rows($userrow) > 0){
-        $userid    = $userrow['user_id'];
-        $firstName = $userrow['first_name'];
-        $lastName     = $userrow['last_name'];
-        $dob     = $userrow['date_of_birth'];
-        $postcode  = $userrow['postcode'];
-        $email = $userrow['email'];
-        
+        $userid    = $row['user_id'];
+        $firstName = $row['first_name'];
+        $lastName     = $row['last_name'];
+        $dob     = $row['date_of_birth'];
+        $postcode  = $row['postcode'];
+        $email = $row['email'];
     }
 
 ?>
+
 
 
 <!DOCTYPE html>
@@ -92,7 +93,17 @@
 
             <div class="row">
                 <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b><?php echo($firstName); ?></b><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
-                <div id="rightBox"><h3>Skills and Interests</h3>Interest(s): <b><br>Christ<br>barns</b><br>Hate(s)<br><b>Inns</b></div>
+            
+                <div id="rightBox"><h3>Skills and Interests</h3><b>Interest(s):</b>
+                    <?php
+                        $query = "SELECT * FROM interest WHERE user_id = " . $id;
+                        $userrow = mysqli_query($conn, $query); //Execute query.
+
+                        while ($row = $userrow->fetch_assoc()) {
+                            echo $row['description'] . '<br>';
+                        }
+                    ?>
+                </div>
             </div>
             <!-- /.row -->
 
