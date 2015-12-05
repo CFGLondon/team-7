@@ -246,33 +246,33 @@
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
-                            <td>Senior Developer</td>
+                            <td>Software Developer</td>
                             <td>London</td>
-                            <td>You will develop software and do software devloping things :DD</td>
+                            <td>Role invoves the development of software.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Googles</a>
                 </b>
                             </td>
-                            <td>The big manr</td>
+                            <td>Senior Software Developer</td>
                             <td>London</td>
-                            <td>You will be the big player of the game and do many things like eat and play golf</td>
+                            <td>Manage software development teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
-                            <td>Chip Consumer</td>
+                            <td>Infrastructure Manager</td>
                             <td>New York</td>
-                            <td>its getting too tired to be funny now :/</td>
+                            <td>Manage infrastructure teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
-                            <td>Help</td>
+                            <td>Software Developer</td>
                             <td>Cairo</td>
-                            <td>I honestly have run out of ideas</td>
+                            <td>Role invoves the development of software.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
