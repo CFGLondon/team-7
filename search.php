@@ -157,7 +157,10 @@
                         <input type="checkbox" value="">Full-time Jobs</label>
                     <label class="checkbox-inline">
                         <input type="checkbox" value="">Part-Time Jobs</label>
-                    <label class="checkbox-inline">
+					<<label class="checkbox-inline">
+						<input type = "checkbox" value = "">Internships</label>
+					<label class="checkbox-inline">
+						<input type = "checkbox" value = "">Education</label>label class="checkbox-inline">
                         <input type="checkbox" value="">Events</label>
                 </div>
 
