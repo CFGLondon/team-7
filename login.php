@@ -82,7 +82,7 @@
                     <div id="header">Did you know?</div>
                     <div class="content">
                         <?php 
-                        $items = Array("523,3452,334,31,...5346");
+                        $items = Array("If you require CV advice, our representatives are available in the 'Ask 4 Advice' section.", "The possibilites are endless, regardless of GCSE and A-Level results. Find out more on our FAQ page!", "We have over 110 employers on the site. Click <a href='google.co.uk'>here</a> to find out more." ); 
                         echo $items[array_rand($items)];
                         ?>
                     </div>
