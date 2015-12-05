@@ -210,13 +210,19 @@
         <div class="row">
             <div class="col-sm-12 well">
                 <h1 style="text-align:center;">Jobs:</h1>
-                <h5>Show me:</h5>
-                <label class="checkbox-inline">
-                    <input type="checkbox" value="">Full-time Jobs</label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" value="">Part-Time Jobs</label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" value="">Events</label>
+
+                <div style="text-align:center;">
+                    <h5>Show me:</h5>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" value="">Full-time Jobs</label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" value="">Part-Time Jobs</label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" value="">Events</label>
+                </div>
+
+
+
                 <table id="table1" class="table table-list-search table-striped table-hover">
                     <thead>
                         <tr>
