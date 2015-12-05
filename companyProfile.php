@@ -151,9 +151,12 @@
                 <div class="col-sm-6">
                     <div id="companyQA">
                         <h3 style="margin: 0; margin-bottom: 15px;">Twitter</h3>
-                        <div class="question">
-                            <b>What kind of enviromental standards does your company comply with?</b><br>
-                            At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
+                        <div class="twitterMessage">
+                        In 1879, Thomas Edison first demonstrated his electric lightbulb to financial backers including JP Morgan. 
+                        </div>
+                        
+                        <div class="twitterMessage">
+                           New @jpmorgan report looks at Asian corporates to understand their appetite for M&A. http://jpm.com/x/j/NFMeBMl  
                         </div>
                     </div>
                 </div>
