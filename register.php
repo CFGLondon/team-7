@@ -78,41 +78,52 @@
 
 	
 	<form action="post" id="register">
-		<h1>Register for Route 21</h1>
+		<h1>Register for Route 21 </h1>
 		<hr>
 		<br>
-		<span>Name: </span>
+		<span>First name: </span>
+		<input type="text" name="name" placeholder="Name" class="form-control"><br>
+		<span>Last name: </span>
 		<input type="text" name="name" placeholder="Name" class="form-control"><br>
 		
-		<span>Age: </span> 
-		<input type="text" name="age" placeholder="Age" class="form-control"><br>
-	
-		<span>Phone number:</span>
-		<input type="text" name="phone" placeholder="phone number" class="form-control"><br>
+		<span>Date of birth: </span>
+		<input type="text" name="name" placeholder="Name" class="form-control"><br>
 		
-		<span>Email: </span>
-		<input type="text" name="email" placeholder="email" class="form-control"><br>
 		
 		<span>Password:</span>
 		<input type="text" name="password" placeholder="password" class="form-control"><br>
 		
 		<span>confirm password:</span>
 		<input type="text" name="password2" placeholder="confirm password" class="form-control"><br>
+		
+		
+		<span>postcode:</span>
+		<input type="text" name="postcode" placeholder="phone number" class="form-control"><br>
+		
+		<span>Email: </span>
+		<input type="text" name="email" placeholder="email" class="form-control"><br>
+		
+		<form>
+		<span>avatar: </span>
+		<img src="profile-img-placeholder.gif"> </img>
+		<input type="text" name="email" placeholder="avatar" class="form-control"><br>
+		
+		<span>type: </span>
+		<input type="text" name="email" placeholder="type" class="form-control"><br>		
+	
+		<span>Phone number:</span>
+		<input type="text" name="phone" placeholder="phone number" class="form-control"><br>
+		
+	
+		
+	
 	
 		<input type="submit" name="register" value="register" class="btn">
 	</form>
 	
 	<?php 
-		if (isset($_POST["register"])) {
-			$fieldNames = {"name", "age", "phone", "email", "password", "password2"};
-			
-			for ($i = 0; $i < $fieldNames; $i++) {
-			
-			} 
-			
-			
-		}
-		
+	
+		if()
 		
 		$stmt = "Insert into users()"
 			
