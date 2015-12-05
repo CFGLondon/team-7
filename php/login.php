@@ -16,9 +16,12 @@
 			//a session for when they logged in, and a session for when their loggedin session will time out.
 			//Also add a log to the log file, also specifying which user logged in and timestamp, and redirect user to the index/home page.
 			if(mysqli_num_rows($userrow) > 0){
-				$_SESSION['loggedinUser'] = $result['user_id'];
-				$_SESSION['begin'] = time();
-				$_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
+                foreach($result as $row) {
+                    $_SESSION['loggedinUser'] = $row['user_id'];
+                    $_SESSION['begin'] = time();
+                    $_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
+                }
+
                 
 			} else {
 				//If there were no matching rows, then notify user that the login was unsuccessful.
