@@ -1,6 +1,6 @@
 <?php
-    echo($_POST['email']);
-    echo ($_POST['password']);
+    echo($_POST['log_email']);
+    echo ($_POST['log_password']);
 
 	if(isset($_POST['email'])){ //If there's data in the username field...
 		if(isset($_POST['password'])){ //If there's data in the password field...
