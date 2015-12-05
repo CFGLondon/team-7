@@ -11,13 +11,12 @@
 			//Query to select username and password from accounts table that are equal to the username and password inputted by user.
 			$query = "SELECT user_id, email, password FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
 			$userrow = mysqli_query($conn, $query); //Execute query.
-			
+			$result = $userrow->result();
 			//If the username and password given by the user exist in the database, set a loggedin session with their username, 
 			//a session for when they logged in, and a session for when their loggedin session will time out.
 			//Also add a log to the log file, also specifying which user logged in and timestamp, and redirect user to the index/home page.
 			if(mysqli_num_rows($userrow) > 0){
-                print_r($userrow);
-				//$_SESSION['loggedinUser'] = $userrow['user_id'];
+				$_SESSION['loggedinUser'] = $result['user_id'];
 				$_SESSION['begin'] = time();
 				$_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
                 
