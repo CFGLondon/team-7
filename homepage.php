@@ -99,42 +99,42 @@
                     <tbody>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Amazon</a>
                             </td>
                             <td>
-                                Infrastructure Manager
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
-                            </td>
-                            <td>
-                                Senior Programmer
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Infrastructure Manager</a>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">J.P. Morgan</a>
                             </td>
                             <td>
-                                Senior Developer
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
-                            </td>
-                            <td>
-                                Senior Software Developer
+                               <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Programmer</a>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">IBM</a>
                             </td>
                             <td>
-                                Software Developer
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Developer</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Google</a>
+                            </td>
+                            <td>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Software Developer</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Mitsubishi</a>
+                            </td>
+                            <td>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Software Developer</a>
                             </td>
                         </tr>
 
