@@ -58,5 +58,19 @@
 }
 
 .postAComment {
-    width: 100%;   
+    width: 100%; 
+    text-align: center;
+}
+
+.commentBox {
+    width: 520px;  
+    resize: none;
+    border-radius: 5%;
+    
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
