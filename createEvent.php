@@ -91,16 +91,18 @@
 		if(isset($_POST["createEvent"]))  {
 			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"])) {
 				
+				include "connect.php";	
 		
 				$eventName = $_POST["eventName"];
 				$date = $_POST["date"];
 				$location = $_POST["location"];
 				$desc = $_POST["description"];
 				
-				$stmnt = "INSERT INTO events VALUES(null, \"$eventName\", \"$date\", \"$location\", \"$desc\", null, null, '1')"; 
-			
+				$stmnt = "INSERT INTO events VALUES(null, \'$eventName\', \'$date\', \'$location\', \'$desc\', null, null, '1')"; 
+	
 				$result = mysqli_query($conn, $stmnt);
 				
+				include 'disconnect.php';
 				if($result != false) {
 					
 					echo "success";
@@ -110,7 +112,12 @@
 				}
 			}
 		}
-		mysqli_close($conn);
+		
+
+		
+		
+		
+		
 	
 	?> 
 
