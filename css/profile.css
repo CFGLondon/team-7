@@ -68,8 +68,24 @@
     width: 50%;
     height: 250px;
     opacity: 90%;
+    padding: 15px;
+    font-weight: 600;
 }
 
 .jobTitle {
     font-size: 20px;   
+    display: inline;
+    margin-right: 30px;
+}
+
+.jobLength {
+    float: right;
+    font-size: 17px;
+    color: rgba(0, 0, 0, .7);
+    display: inline;
+    margin-top: 4px;
+}
+
+.jobDesc {
+       font-weight: 100;
 }
