@@ -12,7 +12,6 @@
 			//Query to select username and password from accounts table that are equal to the username and password inputted by user.
 			$query = "SELECT email, password FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
 			$userrow = mysqli_query($conn, $query); //Execute query.
-            echo($query);
 			
 			//If the username and password given by the user exist in the database, set a loggedin session with their username, 
 			//a session for when they logged in, and a session for when their loggedin session will time out.

@@ -28,6 +28,7 @@
     
     <script>
         $('#logForm').submit(function(event) {
+            alert("hi");
         var formData = {
             'email' : $('.logEmail').val(),
             'password' : $('.logUserPass').val()
