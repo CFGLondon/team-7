@@ -176,6 +176,8 @@
                 </ul>
                 
                 <?php
+                    session_start();
+                
                     if (!isset($_SESSION['loggedinUser'])) {
                 ?>
                 <ul class="nav navbar-nav navbar-right">
