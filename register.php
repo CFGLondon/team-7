@@ -95,12 +95,12 @@
 			<div id="avDesc">Upload a profile picture:</div>
 			<img src="profile-img-placeholder.gif"></img>
 			<input type="text" name="avatar" class="form-control"><br>
-			<input type="submit" name="submitPicture" value="Upload" class="btn"> 
+			<input type="submit" name="submitPicture" value="upload" class="btn"> 
 		</div>
 		<span>Phone number:</span>
 		<input type="text" name="phone" placeholder="07890123456" class="form-control"><br>
 		
-		<input type="submit" name="register" value="register" class="btn">
+		<input type="submit" name="register" value="Register" class="btn">
 	</form>
 	<?php
 		$first = $_GET['firstName'];
