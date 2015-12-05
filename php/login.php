@@ -1,6 +1,4 @@
 <?php
-    echo($_POST['log_email']);
-    echo ($_POST['log_password']);
 
 	if(isset($_POST['email'])){ //If there's data in the username field...
 		if(isset($_POST['password'])){ //If there's data in the password field...
@@ -22,11 +20,6 @@
 				$_SESSION['loggedinUser'] = $user_id;
 				$_SESSION['begin'] = time();
 				$_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
-					
-					
-				//Uses the writeMessage function from phpFuncts.php to write a message to the logfile.
-				$message = " has LOGGED IN.";
-				writeLog($message);
 					
 				header("location: http://google.co.uk");
                 
