@@ -9,6 +9,9 @@
                 
                     <?php  if (basename($_SERVER['PHP_SELF']) == "search.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
                     <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
+                
+                    <?php  if (basename($_SERVER['PHP_SELF']) == "faq.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
+                    <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/faq.php">FAQ</a></li>
                 </ul>
 
             <?php
