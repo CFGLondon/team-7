@@ -3,6 +3,8 @@
     
     if (isset($_SESSION['loggedinUser'])) {
         session_destroy();
+        $_SESSION = array();
+        
     } else {
         $data['error'] = "No session found!";
     }    
