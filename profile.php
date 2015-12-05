@@ -92,9 +92,9 @@
             <hr style="margin-top: -20px;">
 
             <div class="row">
-                <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b><?php echo($firstName); ?></b><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
+                <div id="leftBox"><div class="content"><h3>Details</h4><b>Name: </b><?php echo($firstName); ?><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
             
-                <div id="rightBox"><h3>Skills and Interests</h3><b>Interest(s):</b>
+                <div id="rightBox"><h3>Skills and Interests</h3>
                     <?php
                         $query = "SELECT * FROM interest WHERE user_id = " . $id;
                         $userrow = mysqli_query($conn, $query); //Execute query.
