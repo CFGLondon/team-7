@@ -150,6 +150,7 @@
                                     echo '<div class="leftWork"><div class="jobTitle">Carpenter</div><div class="jobLength">December 1632 - January 1946</div><div class="jobDesc"><b>Job Description -</b> </div></div>';
                                 }
                             }
+                        ?>
                         
                         <div class="leftWork">
                             <div class="jobTitle">Carpenter</div>
