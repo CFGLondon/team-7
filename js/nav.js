@@ -27,11 +27,10 @@ $(function() {
     });
     
     
-    $('#logout').submit(function(event) {
+    $('#logout').onClick(function(event) {
         $.ajax({
             type: 'POST',
             url: 'php/logout.php',
-            data: formData,
             dataType: 'json',
             encode: true,
             error: function(request, status, error) {
@@ -45,7 +44,5 @@ $(function() {
                 }
             }
         })
-
-        event.preventDefault();
     });
 });
