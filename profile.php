@@ -1,25 +1,27 @@
 <?php 
-    
+    include 'connect.php';
+
+    $query        = "SELECT * FROM users WHERE id = :id";
+    $userrow = mysqli_query($conn, $query);
+
     if ($row) {
-        $userid    = $row['user_id'];
-        $firstName = $row['first_name'];
-        $lastName     = $row['last_name'];
-        $dob     = $row['date_of_birth'];
-        $postcode  = $row['postcode'];
-        $email = $row['email'];
-        $type = $row['type'];
-        $bio = $row['bio'];
-        $dateJoined = $row['date_joined'];
-        $phoneNo = $row['phone_number'];
+        $userid    = $userrow['user_id'];
+        $firstName = $userrow['first_name'];
+        $lastName     = $userrow['last_name'];
+        $dob     = $userrow['date_of_birth'];
+        $postcode  = $userrow['postcode'];
+        $email = $userrow['email'];
+        $type = $userrow['type'];
+        $bio = $userrow['bio'];
+        $dateJoined = $userrow['date_joined'];
+        $phoneNo = $userrow['phone_number'];
         
-        if ($row['bio']) {
-            $bio = $row['bio'];
+        if ($userrow['bio']) {
+            $bio = $userrow['bio'];
         }
         
     }
 ?>
-    
-    
 
 <!DOCTYPE html>
     <html lang="en">
@@ -98,7 +100,7 @@
                 <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b>
                     <?php 
 echo ' '. $firstName .'</b><br><b>Email:</b> JesusChristLovesYou@gmail.com<br><b>Age:</b> 2015</br><b></b></div></div>';
-?>
+                        ?>
                 <div id="rightBox"><h3>Skills and Interests</h3>Interest(s): <b><br>Christ<br>barns</b><br>Hate(s)<br><b>Inns</b></div>
             </div>
             <!-- /.row -->
