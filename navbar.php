@@ -1,15 +1,15 @@
-   <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-inverse" role="navigation">
-        <div class="container-fluid">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <?php  if (basename($_SERVER['PHP_SELF']) == "homepage.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
-    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.php">Homepage</a></li>
-                
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <?php  if (basename($_SERVER['PHP_SELF']) == "homepage.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
+                    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.php">Homepage</a></li>
+
                     <?php  if (basename($_SERVER['PHP_SELF']) == "search.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
-                    <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
-                </ul>
+                        <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
+            </ul>
 
             <?php
                 session_start();
@@ -19,7 +19,7 @@
             ?>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <p class="navbar-text">Already have an account?</p>
+                        <p class="navbar-text" style="color:white;">Already have an account?</p>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
@@ -64,15 +64,15 @@
                         </ul>
                     </li>
                 </ul>
-                
-              <?php
+
+                <?php
                     } else {
                 ?>
-                
-               <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <p>
-                        <?php     
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <p>
+                                <?php     
                             $query = "SELECT * FROM user WHERE user_id = " . $_SESSION['loggedinUser'];
                             $userrow = mysqli_query($conn, $query); //Execute query.
 
@@ -80,12 +80,12 @@
                                 echo "<a href='profile.php?id=" . $row['user_id'] . "'>" . $row['first_name'] . "</a>";
                             }
                         ?></p>
-                    </li>
-                </ul>
-                
-                <?php } ?>  
-            </div>
-            <!-- /.navbar-collapse -->
+                        </li>
+                    </ul>
+
+                    <?php } ?>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
