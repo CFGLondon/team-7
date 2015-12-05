@@ -10,7 +10,7 @@
 			$errorMessage = null;
 			
 			//Query to select username and password from accounts table that are equal to the username and password inputted by user.
-			$query = "SELECT email, password FROM users WHERE password = '" . $password . "'";
+			$query = "SELECT email, password FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
 			$userrow = mysqli_query($conn, $query); //Execute query.
             echo($query);
 			
