@@ -134,7 +134,7 @@
 
             <hr>
         
-            <div class="row">
+            <div class="row row-no-padding">
                 <div class="col-sm-6">
                     <div id="companyQA">
                         <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Facebook</h3><span class="subheader"><a href="https://www.facebook.com/jpmorganchasecareers" target="_blank">J.P. Morgan and Chase</a></span>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-6">
+                <div class="col-sm-6 nopadding">
                     <div id="companyQA">
                         <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Twitter</h3><span class="subheader"><a href="https://twitter.com/jpmorgan" target="_blank">@JPMorgan</a></span>
                         <div class="twitterMessage">

@@ -131,3 +131,10 @@
     margin-bottom: 30px;
     text-align:right;
 }
+
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
