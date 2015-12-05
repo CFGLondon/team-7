@@ -83,7 +83,7 @@
                             $userrow = mysqli_query($conn, $query); //Execute query.
 
                             while ($row = $userrow->fetch_assoc()) {
-                                echo "<a href='profile.php?id=" . $row['user_id'] . "'>" . $row['first_name'] . "</a>";
+                                echo "<a class='link' href='profile.php?id=" . $row['user_id'] . "'>" . $row['first_name'] . "</a>";
                             }
                         ?></p>
                         </li>
