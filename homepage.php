@@ -99,75 +99,42 @@
                     <tbody>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                             </td>
                             <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.phphttp://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
+                                Infrastructure Manager
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
                             </td>
                             <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
+                                Senior Programmer
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                             </td>
                             <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
+                                Senior Developer
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                             </td>
                             <td>
-                                Train Driver
+                                Senior Software Developer
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                             </td>
                             <td>
-                                Train Driver
+                                Software Developer
                             </td>
                         </tr>
 
@@ -267,7 +234,7 @@
                             <td>Aimed at younger people, this experience will give you insight in working in the industry.</td>
                         </tr>
                         <tr>
-                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Googles</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                 </b>
                             </td>
                             <td>Senior Software Developer</td>
