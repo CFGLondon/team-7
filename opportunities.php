@@ -142,7 +142,7 @@
 <p class="companyDeets"><b>Skills required: </b>PHP, Unix, MySQL, HTML, CSS, Python</p>
 <p class="companyDeets"><b>Sector: </b>Technology</p>
                 </div>    
-                <div id="companyShortDescri"><h4>Opportunity Description</h4><p> :)</p></div>
+                <div id="companyShortDescri"><h4>Opportunity Description</h4></div>
             </div>
             
             <hr>
