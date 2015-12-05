@@ -1,4 +1,3 @@
-<<<<<<< HEAD
    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-inverse" role="navigation">
         <div class="container-fluid">
@@ -14,7 +13,6 @@
                     <?php  if (basename($_SERVER['PHP_SELF']) == "faq.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
                     <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/faq.php">FAQ</a></li>
                 </ul>
->>>>>>> origin/master
 
             <?php
                 session_start();
