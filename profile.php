@@ -113,7 +113,7 @@
                 <div id="sectionBody">
                     <div class="sectionHeader"><h3 style="margin: 0;">Events Attended</h3></div>
                     <div class="eventContent">
-                        <div class="event"><div class="capton">London Code for Good</div></div>
+                        <div class="event"><div class="caption">London Code for Good</div></div>
                         <div class="event">.</div>
                         <div class="event">.</div>
                         <div class="event">.</div>
