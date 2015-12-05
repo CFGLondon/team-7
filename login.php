@@ -80,6 +80,11 @@
             
                 <div id="info">
                     <div id="header">Did you know?</div>
+                    <div class="content"><?php 
+                        $items = Array("523,3452,334,31,...5346");
+                        echo $items[array_rand($items)];
+
+?></div>
                 </div>
             </div>
         </div>
