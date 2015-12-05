@@ -109,10 +109,11 @@
 		$passOne = $_GET['password'];
 		$passTwo = $_GET['password2'];
 		$email = $_GET['email'];
-		$postcode = $_GET[''];
+		$postcode = $_GET['postcode'];
 		
 		if ($passOne == $passTwo && $passOne != null) {
-			echo "<script>alert(\"Passwords do match\")</script>";
+			include "connect.php";			
+			$query = "INSERT INTO user (first_name, last_name, password, email, date_of_birth, postcode)VALUES ('$first', '$last', '$passOne', '$email', '$DOB', '$postcode')";
 		} else if ($passOne != null) {
 			echo "<script>alert(\"Passwords do not match\")</script>";
 		}
