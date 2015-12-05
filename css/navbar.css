@@ -82,11 +82,12 @@ body {
 .table-hover tbody tr:hover th {
     background-color: #eeeeea;
 }
+
 .navbar-right {
     margin-right: 0px;
     padding-top: 13px;
-    color: #fff;
 }
+
 .link {
     color: #fff !important;
     font-weight: bold;
