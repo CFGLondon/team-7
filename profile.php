@@ -118,10 +118,10 @@
                                 $eventRow = mysqli_query($conn, $query); //Execute query
                            
                                 while ($row = $eventRow->fetch_assoc()) {
-                                for(int i= 1; i >2; i++) { 
+                                //for(int i= 1; i >2; i++) { 
                                     echo '<div class="leftWork"><div class="jobTitle">'.$row['name'].'</div><div class="jobLength">'.$row['type'].' - '.$row['location'] .'</div><div class="jobDesc"><b>Job Description -</b> '.$row['about'].' </div></div>';
-                    echo '<div class="rightWork"><div class="jobTitle">'.$row['name'].'</div><div class="jobLength">'.$row['type'].' - '.$row['location'] .'</div><div class="jobDesc"><b>Job Description -</b> '.$row['about'].' </div></div>';
-                                }
+                    /*echo '<div class="rightWork"><div class="jobTitle"> '.$row['name'].' </div><div class="jobLength">'.$row['type'].' - '.$row['location'] .'</div><div class="jobDesc"><b>Job Description -</b> '.$row['about'].' </div></div>';
+                                }*/
                                 }
                             }
                         ?>
