@@ -104,7 +104,10 @@
                             echo $row['description'] . '<br>';
                         }
                     ?>
-					<form method = "get">
+					
+                </div>
+            </div>
+			<form method = "get">
 						<input type = "text" name = "trait"></br>
 						<select name = "type">
 							<option value = "skill">Skill</option>
@@ -112,8 +115,6 @@
 						</select>
 						<input type = "submit" name = "sub">
 					</form>
-                </div>
-            </div>
             <!-- /.row -->
 
             <hr>
