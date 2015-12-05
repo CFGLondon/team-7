@@ -98,7 +98,7 @@
 				$desc = $_POST["description"];
 				
 				$stmnt = "INSERT INTO events VALUES(null, \"$eventName\", \"$date\", \"$location\", \"$desc\", null, null, '1')"; 
-				
+				echo "<script type='text/javascript'>alert('$stmnt');</script>";
 				$result = mysqli_query($conn, $stmnt);
 				
 				if($result != false) {
