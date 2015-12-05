@@ -59,7 +59,7 @@
         <div class="container">
 
             <div class="profileBanner">
-                <div class="profileImage"><img src="assets/profilepic.jpg" class="img-circle img-responsive img-center" height="200px" width="200px"></div>
+                <div class="profileImage"><img src="http://bromleydivingclub.com/wp-content/uploads/2013/07/placeholder.png" class="img-circle img-responsive img-center" height="200px" width="200px"></div>
             </div>
             <!-- /.row -->
 
