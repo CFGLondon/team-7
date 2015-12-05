@@ -3,52 +3,6 @@
 
 <head>
     <style>
-        .bt-login,
-        .bt-login:hover,
-        .bt-login:active,
-        .bt-login:focus {
-            background-color: #ff8627;
-            color: #ffffff;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            transition: background-color 300ms linear 0s;
-        }
-        
-        .login-tab {
-            margin: 0 auto;
-            max-width: 380px;
-        }
-        
-        .login-modal-header {
-            background: #27ae60;
-            color: #fff;
-        }
-        
-        .login-modal-header .modal-title {
-            color: #fff;
-        }
-        
-        .login-modal-header .close {
-            color: #fff;
-        }
-        
-        .login-modal i {
-            color: #000;
-        }
-        
-        .login-modal form {
-            max-width: 340px;
-        }
-        
-        .tab-pane form {
-            margin: 0 auto;
-        }
-        
-        .login-modal-footer {
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        
         body {
             padding: 50px;
         }
@@ -173,21 +127,62 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+    <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <div class="container-fluid">
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p class="navbar-text">Already have an account?</p>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div style="text-align:center;">Login via</div>
+                                        <div class="social-buttons">
+                                            <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                                            <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+                                        </div>
+                                        <div style="text-align:center;">or</div>
+                                        <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <div style="text-align:center;margin-left:auto;margin-right:auto;">
+                                                        <input type="checkbox"> keep me logged-in</div>
+
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="bottom text-center">
+                                        New here ? <a href="#"><b>Join Us</b></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
     <header class="business-header">
         <div class="container">
@@ -207,7 +202,6 @@
         <div class="row">
             <div class="col-sm-3 well">
                 <h1 style="font-size: 20px;text-align:center;">Your Account:</h1> To be filled later
-
             </div>
             <div class="col-sm-8 well" style="margin-left:5%">
                 <h1 style="text-align:center;">Your recommended jobs:</h1>
@@ -322,6 +316,7 @@
 
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-3 well" id="jobs" style="margin-top:-600px;">
                 <h1 style="font-size: 20px;text-align:center;">Most Recent Jobs:</h1>
@@ -413,142 +408,6 @@
         </div>
     </div>
 
-    <!-- -Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content login-modal">
-                <div class="modal-header login-modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title text-center" id="loginModalLabel">USER AUTHENTICATION</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center">
-                        <div role="tabpanel" class="login-tab">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a id="signin-taba" href="#home" aria-controls="home" role="tab" data-toggle="tab">Sign In</a></li>
-                                <li role="presentation"><a id="signup-taba" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Sign Up</a></li>
-                                <li role="presentation"><a id="forgetpass-taba" href="#forget_password" aria-controls="forget_password" role="tab" data-toggle="tab">Forget Password</a></li>
-                            </ul>
-
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active text-center" id="home">
-                                    &nbsp;&nbsp;
-                                    <span id="login_fail" class="response_error" style="display: none;">Loggin failed, please try again.</span>
-                                    <div class="clearfix"></div>
-                                    <form>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                                <input type="text" class="form-control" id="login_username" placeholder="Username">
-                                            </div>
-                                            <span class="help-block has-error" id="email-error"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-lock"></i></div>
-                                                <input type="password" class="form-control" id="password" placeholder="Password">
-                                            </div>
-                                            <span class="help-block has-error" id="password-error"></span>
-                                        </div>
-                                        <button type="button" id="login_btn" class="btn btn-block bt-login" data-loading-text="Signing In....">Login</button>
-                                        <div class="clearfix"></div>
-                                        <div class="login-modal-footer">
-                                            <div class="row">
-                                                <div class="col-xs-8 col-sm-8 col-md-8">
-                                                    <i class="fa fa-lock"></i>
-                                                    <a href="javascript:;" class="forgetpass-tab"> Forgot password? </a>
-
-                                                </div>
-
-                                                <div class="col-xs-4 col-sm-4 col-md-4">
-                                                    <i class="fa fa-check"></i>
-                                                    <a href="javascript:;" class="signup-tab"> Sign Up </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="profile">
-                                    &nbsp;&nbsp;
-                                    <span id="registration_fail" class="response_error" style="display: none;">Registration failed, please try again.</span>
-                                    <div class="clearfix"></div>
-                                    <form>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                                <input type="text" class="form-control" id="username" placeholder="Username">
-                                            </div>
-                                            <span class="help-block has-error" data-error='0' id="username-error"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-at"></i></div>
-                                                <input type="text" class="form-control" id="remail" placeholder="Email">
-                                            </div>
-                                            <span class="help-block has-error" data-error='0' id="remail-error"></span>
-                                        </div>
-                                        <button type="button" id="register_btn" class="btn btn-block bt-login" data-loading-text="Registering....">Register</button>
-                                        <div class="clearfix"></div>
-                                        <div class="login-modal-footer">
-                                            <div class="row">
-                                                <div class="col-xs-8 col-sm-8 col-md-8">
-                                                    <i class="fa fa-lock"></i>
-                                                    <a href="javascript:;" class="forgetpass-tab"> Forgot password? </a>
-
-                                                </div>
-
-                                                <div class="col-xs-4 col-sm-4 col-md-4">
-                                                    <i class="fa fa-check"></i>
-                                                    <a href="javascript:;" class="signin-tab"> Sign In </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div role="tabpanel" class="tab-pane text-center" id="forget_password">
-                                    &nbsp;&nbsp;
-                                    <span id="reset_fail" class="response_error" style="display: none;"></span>
-                                    <div class="clearfix"></div>
-                                    <form>
-                                        <div class="form-group">
-                                            <div class="input-group">
-                                                <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                                <input type="text" class="form-control" id="femail" placeholder="Email">
-                                            </div>
-                                            <span class="help-block has-error" data-error='0' id="femail-error"></span>
-                                        </div>
-
-                                        <button type="button" id="reset_btn" class="btn btn-block bt-login" data-loading-text="Please wait....">Forget Password</button>
-                                        <div class="clearfix"></div>
-                                        <div class="login-modal-footer">
-                                            <div class="row">
-                                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                                    <i class="fa fa-lock"></i>
-                                                    <a href="javascript:;" class="signin-tab"> Sign In </a>
-
-                                                </div>
-
-                                                <div class="col-xs-6 col-sm-6 col-md-6">
-                                                    <i class="fa fa-check"></i>
-                                                    <a href="javascript:;" class="signup-tab"> Sign Up </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- - Login Model Ends Here -->
-
 
     <!-- /.container -->
     <!-- jQuery -->
@@ -563,22 +422,6 @@
         $(function() {
             $("#table1").dataTable();
         })
-        $(document).ready(function() {
-            $(document).on('click', '.signup-tab', function(e) {
-                e.preventDefault();
-                $('#signup-taba').tab('show');
-            });
-
-            $(document).on('click', '.signin-tab', function(e) {
-                e.preventDefault();
-                $('#signin-taba').tab('show');
-            });
-
-            $(document).on('click', '.forgetpass-tab', function(e) {
-                e.preventDefault();
-                $('#forgetpass-taba').tab('show');
-            });
-        });
 
     </script>
 </body>
