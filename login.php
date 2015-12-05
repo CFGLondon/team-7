@@ -40,7 +40,10 @@
                 data        : formData,
                 dataType    : 'json',
                 encode      : true,
-                error		: function(request, status, error) { console.log(request.responseText); },
+                error		: function(request, status, error) { 
+                    alert("Not working");
+                    console.log(request.responseText); 
+                },
                 success		: function(data) {
                     alert("Hi");
                     if (data.error) {

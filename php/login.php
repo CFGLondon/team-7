@@ -19,8 +19,6 @@
 				//$_SESSION['loggedinUser'] = $user_id;
 				$_SESSION['begin'] = time();
 				$_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
-					
-				header("location: http://google.co.uk");
                 
 			} else {
 				//If there were no matching rows, then notify user that the login was unsuccessful.
