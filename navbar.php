@@ -25,10 +25,10 @@
             ?>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <p class="navbar-text" style="color:white;">Already have an account?</p>
+                        <p class="navbar-text" style="color:white; padding: 0; margin: 0;">Already have an account?</p>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding: 0; margin-left: 26px;"><b>Login</b> <span class="caret"></span></a>
                         <ul id="login-dp" class="dropdown-menu">
                             <li>
                                 <div class="row">
@@ -39,7 +39,7 @@
                                             <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
                                         </div>
                                         <div style="text-align:center;">or</div>
-                                        <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                        <form class="form" role="form" method="post" action="login.php" accept-charset="UTF-8" id="login-nav">
                                             <div class="form-group">
                                                 <label class="sr-only" for="exampleInputEmail2">Email address</label>
                                                 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>

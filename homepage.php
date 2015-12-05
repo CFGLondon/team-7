@@ -32,9 +32,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="js/nav.js"></script>
-
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+
+    <script src="js/nav.js"></script>
 </head>
 
 <body>
@@ -313,7 +313,6 @@
         $(function() {
             $("#table1").dataTable();
         })
-
     </script>
 </body>
 
