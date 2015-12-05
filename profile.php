@@ -1,10 +1,4 @@
 <?php 
-    $query        = "SELECT * FROM users WHERE id = :id";
-    $query_params = array(':id' => intval($_GET['id']));
-    
-    $stmt   = $db->prepare($query);
-    $result = $stmt->execute($query_params);
-    $row    = $stmt->fetch();
     
     if ($row) {
         $userid    = $row['user_id'];
