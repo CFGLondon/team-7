@@ -109,5 +109,9 @@
 }
 
 .fbMessage {
-    
+    margin-bottom: 30px;
+    background-color: #708DC8;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
 }
