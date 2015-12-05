@@ -106,6 +106,7 @@
                 <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b>
                     <?php 
 echo ' '. $firstName .'</b><br><b>Email:</b> JesusChristLovesYou@gmail.com<br><b>Age:</b> 2015</br><b></b></div></div>';
+?>
                 <div id="rightBox"><h3>Skills and Interests</h3>Interest(s): <b><br>Christ<br>barns</b><br>Hate(s)<br><b>Inns</b></div>
             </div>
             <!-- /.row -->
