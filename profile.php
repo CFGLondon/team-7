@@ -113,11 +113,19 @@
                 <div id="sectionBody">
                     <div class="sectionHeader"><h3 style="margin: 0;">Events Attended</h3></div>
                     <div class="eventContent">
-                        <div class="event"><div class="caption">London Code for Good</div></div>
-                        <div class="event">.</div>
-                        <div class="event">.</div>
-                        <div class="event">.</div>
-                        <div class="event">.</div>
+                        <?php
+                            $query = "SELECT * FROM user_events WHERE user_id = " . $id;
+                            $userrow = mysqli_query($conn, $query); //Execute query.
+
+                            while ($row = $userrow->fetch_assoc()) {
+                                $query = "SELECT * FROM events WHERE event_id = " . $row['event_id'];
+                                $eventRow = mys
+                           
+                                while ($row = $userrow->fetch_assoc()) {
+                                    echo '<div class="event"><div class="caption">' . $row['name'] . '</div></div>';
+                                }
+                            }
+                        ?>
                     </div>
                 </div>
             </div>

@@ -95,9 +95,10 @@
 }
 
 .caption {
-    position: relative;
+    position: absolute;
     padding-top:5px;
     padding-bottom: 5px;
     width: 100%;
     border-top: 1px solid black;
+    bottom: 0px;
 }
