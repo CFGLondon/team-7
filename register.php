@@ -14,6 +14,7 @@
 
     <!-- Bootstrap -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,19 +53,9 @@
     </style>
 </head>
 
-<body >
-    
-	 <!-- Navigation -->
-	<nav class="navbar navbar-inverse" role="navigation">
-		<div class="container">
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		</div>
-		<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-	</nav>	
-	
+<body>
+    <?php include 'navbar.php'; ?>
+
 	<form method="get" action="#"  id="register">
 		<h1>Register for Route 21 </h1>
 		<hr>
