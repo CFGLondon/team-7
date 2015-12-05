@@ -109,6 +109,7 @@
 						<select name = "type">
 							<option value = "skill">Skill</option>
 							<option value = "interest">Interest</option>
+						</select>
 						<submit>
 					</form>
                 </div>
