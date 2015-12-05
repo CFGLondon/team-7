@@ -1,10 +1,7 @@
 <?php 
     include 'connect.php';
 
-    $id = intval($_GET['id']));
-
-    $query = "SELECT * FROM users WHERE id = '". $id ."'";
-			$userrow = mysqli_query($conn, $query);
+    $id = intval($_GET['id'])); 
 
     if ($row) {
         $userid    = $userrow['user_id'];
