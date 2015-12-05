@@ -150,7 +150,7 @@
                 
                 <div class="col-sm-6">
                     <div id="companyQA">
-                        <h3 style="margin: 0; margin-bottom: 15px;">Twitter</h3>
+                        <h3 style="margin: 0; margin-bottom: 25px;">Twitter</h3><span class="subheader"><a href="https://twitter.com/jpmorgan" target="_blank">@JPMorgan</a></span>
                         <div class="twitterMessage">
                         In 1879, Thomas Edison first demonstrated his electric lightbulb to financial backers including JP Morgan. 
                         </div>
