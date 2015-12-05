@@ -237,12 +237,13 @@
                         <p>Welcome back, 
                         
                         <?php     
-                            echo $_SESSION['loggedinUser'];
-                            $query = "SELECT * FROM user WHERE user_id = " . $_SESSION['loggedinUser'];
                             $userrow = mysqli_query($conn, $query); //Execute query.
                             $row = $userrow->fetch_assoc();
 
-                            if(mysqli_num_rows($userrow) > 0){
+                            $query = "SELECT * FROM user_events WHERE user_id = " . $_SESSION['loggedinUser'];
+                            $userrow = mysqli_query($conn, $query); //Execute query.
+
+                            while ($row = $userrow->fetch_assoc()) {
                                 echo "<a href='profile.php?id=" . $row['user_id'] . "'>" . $row['first_name'] . "</a>!";
                             }
                         ?></p>
