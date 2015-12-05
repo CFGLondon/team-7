@@ -8,10 +8,13 @@
                     <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.php">Home</a></li>
                 
                     <?php  if (basename($_SERVER['PHP_SELF']) == "search.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
-                    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
+                    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search</a></li>
              
                     <?php  if (basename($_SERVER['PHP_SELF']) == "advice.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
-                    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/advice.php">Advice</a></li>            
+                    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/advice.php">Advice</a></li> 
+        
+                    <?php  if (basename($_SERVER['PHP_SELF']) == "oppertunityType.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
+                    <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/oppertunityType.php">Pathways</a></li>
             
                     <?php  if (basename($_SERVER['PHP_SELF']) == "faq.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
                     <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/faq.php">FAQ</a></li>
