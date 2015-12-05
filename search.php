@@ -160,7 +160,8 @@
 					<label class="checkbox-inline">
 						<input type = "checkbox" value = "">Internships</label>
 					<label class="checkbox-inline">
-						<input type = "checkbox" value = "">Education</label>label class="checkbox-inline">
+						<input type = "checkbox" value = "">Education</label>
+					<label class="checkbox-inline">
                         <input type="checkbox" value="">Events</label>
                 </div>
 
