@@ -78,7 +78,7 @@
 		
 		<input type="text" name="location" placeholder="date of birth" class="form-control"><br>
 		<b>Description:</b>
-		<input type="password" name="description" placeholder="password" class="form-control"><br>
+		<input type="test" name="description" placeholder="description" class="form-control"><br>
 		
 		<input type="submit" name="createEvent" value="create event" class="btn">
 	</form>
@@ -103,6 +103,8 @@
 				$desc = $_POST["description"];
 				
 				
+				$conUp = mysqli_ping($conn);
+				var_dump($conUp);
 				
 				$stmnt = "INSERT INTO events VALUES(null, $eventName, $date, $location, $description, null, null, null)";		
 				
