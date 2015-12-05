@@ -3,6 +3,52 @@
 
 <head>
     <style>
+        .bt-login,
+        .bt-login:hover,
+        .bt-login:active,
+        .bt-login:focus {
+            background-color: #ff8627;
+            color: #ffffff;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            transition: background-color 300ms linear 0s;
+        }
+        
+        .login-tab {
+            margin: 0 auto;
+            max-width: 380px;
+        }
+        
+        .login-modal-header {
+            background: #27ae60;
+            color: #fff;
+        }
+        
+        .login-modal-header .modal-title {
+            color: #fff;
+        }
+        
+        .login-modal-header .close {
+            color: #fff;
+        }
+        
+        .login-modal i {
+            color: #000;
+        }
+        
+        .login-modal form {
+            max-width: 340px;
+        }
+        
+        .tab-pane form {
+            margin: 0 auto;
+        }
+        
+        .login-modal-footer {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
         body {
             padding: 50px;
         }
@@ -517,6 +563,22 @@
         $(function() {
             $("#table1").dataTable();
         })
+        $(document).ready(function() {
+            $(document).on('click', '.signup-tab', function(e) {
+                e.preventDefault();
+                $('#signup-taba').tab('show');
+            });
+
+            $(document).on('click', '.signin-tab', function(e) {
+                e.preventDefault();
+                $('#signin-taba').tab('show');
+            });
+
+            $(document).on('click', '.forgetpass-tab', function(e) {
+                e.preventDefault();
+                $('#forgetpass-taba').tab('show');
+            });
+        });
 
     </script>
 </body>
