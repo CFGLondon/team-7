@@ -27,7 +27,7 @@ $(function() {
     });
     
     
-    $('#logout').onClick(function(event) {
+    $('#logout').click(function() {
         $.ajax({
             type: 'POST',
             url: 'php/logout.php',
