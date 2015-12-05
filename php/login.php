@@ -1,5 +1,5 @@
 <?php
-
+    print_r($_POST); 
 	if(isset($_POST['email'])){ //If there's data in the username field...
 		if(isset($_POST['password'])){ //If there's data in the password field...
 			include '../connect.php'; //Open DB connection.
