@@ -106,6 +106,16 @@
 		$first = $_GET['firstName'];
 		$last = $_GET['lastName'];
 		$DOB = $_GET['DOB'];
+		$passOne = $_GET['password'];
+		$passTwo = $_GET['password2'];
+		$email = $_GET['email'];
+		$postcode = $_GET[''];
+		
+		if ($passOne == $passTwo) {
+			echo "<script>alert(\"Passwords do match\")</script>";
+		} else {
+			echo "<script>alert(\"Passwords do not match\")</script>";
+		}
 	?>
 
 </body>
