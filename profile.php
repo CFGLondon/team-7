@@ -2,7 +2,7 @@
    include 'connect.php';
 
     $id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
-    $query = "SELECT * FROM user WHERE user_id = '" . $id . "'";
+    $query = "SELECT * FROM user WHERE user_id = 1";
     $userrow = mysqli_query($conn, $query); //Execute query.
 
     
