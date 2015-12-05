@@ -50,7 +50,7 @@
     <div class="container">
 	   <h1>Frequently Asked Questions</h1>
 	   <h3>What is Route 21?</h3>
-    	<p>Route 21 is a social service that that allows young people to see what opportunities are available to them both educationally and vocationally</p>
+    	<p>Route 21 is a social service that that allows young people to see what opportunities are available to them both educationally and vocationally.</p>
         
         <h3>Whats the difference between events and opportunities?</h3>
         <p>Opportunities are jobs, internships and courses. Events are things put on by companies like competitions.</p>
