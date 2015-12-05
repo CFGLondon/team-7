@@ -94,7 +94,7 @@
 		if(isset($_POST["createEvent"]))  {
 			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"]) {
 				
-				echo "<script type='text/javascript'>alert('test');</script>";
+			
 				
 				$eventName = $_POST["eventName"];
 				$date = $_POST["date"];
