@@ -102,6 +102,12 @@
         .table-hover tbody tr:hover th {
             background-color: #eeeeea;
         }
+        
+        .navbar-right {
+            margin-right: 0px;
+            padding-top: 10px;
+            color: #fff;
+        }
 
     </style>
     <meta charset="utf-8">
