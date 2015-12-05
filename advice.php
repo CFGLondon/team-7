@@ -48,7 +48,7 @@
 	   <h3>Are you in need of advice?</h3>
 	   <p>We offer a service that allows you to talk to people who have been in your position. Heading for an internship? John, who is the same age as you, has been on the same course before. Our platform allows you to connect with him and find out answers to the questions YOU want answered. It's a completely free service and is available for PC, Android, iOS and Windows devices.</p>
   
-        <p style="margin-bottom: 20px;">Our volunteers are here to help, so say hello using the button below.</p>
+        <p style="margin-bottom: 40px;">Our volunteers are here to help, so say hello using the button below.</p>
         
         <a href="" class="btn btn-danger" role="button">Speak with an Experienced Volunteer</a>
 	</div>
