@@ -186,7 +186,23 @@
                             <td>Role invoves the development of software.</td>
                         </tr>
                         <tr>
-                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Googles</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
+                </b>
+                            </td>
+                            <td>Senior Programmer</td>
+                            <td>London</td>
+                            <td>Work on important programming tasks and manage teams of programmers.</td>
+                        </tr>
+                        <tr>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
+                </b>
+                            </td>
+                            <td>Experience Week in Industry</td></td>
+                            <td>London</td>
+                            <td>Aimed at younger people, this experience will give you insight in working in the industry.</td>
+                        </tr>
+                        <tr>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                 </b>
                             </td>
                             <td>Senior Software Developer</td>
@@ -272,14 +288,6 @@
                             <td>Software Developer</td>
                             <td>Cairo</td>
                             <td>Role invoves the development of software.</td>
-                        </tr>
-                        <tr>
-                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
-                </b>
-                            </td>
-                            <td>Infrastructure Manager</td>
-                            <td>London</td>
-                            <td>Manage infrastructure teams.</td>
                         </tr>
                     </tbody>
                 </table>
