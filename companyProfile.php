@@ -137,7 +137,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div id="companyQA">
-                        <h3 style="margin: 0; margin-bottom: 25px;">Facebook</h3>
+                        <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Facebook</h3><span class="subheader"><a href="https://www.facebook.com/jpmorganchasecareers" target="_blank">J.P. Morgan and Chase</a></span>
                         <div class="fbMessage">
                         "At JPMorgan Chase & Co., we challenge ourselves daily to create a truly accessible and inclusive environment." Taskeen, Managing Director of Reference Data Strategy and Global Co-Chair of our Access Ability business resource group, recently shared her story on how caring for her son encouraged her to become an advocate for employees with disabilities and caregivers in the workplace. jpm.com/x/i/NFQoa2o
                         </div>
@@ -150,7 +150,7 @@
                 
                 <div class="col-sm-6">
                     <div id="companyQA">
-                        <h3 style="margin: 0; margin-bottom: 25px;">Twitter</h3><span class="subheader"><a href="https://twitter.com/jpmorgan" target="_blank">@JPMorgan</a></span>
+                        <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Twitter</h3><span class="subheader"><a href="https://twitter.com/jpmorgan" target="_blank">@JPMorgan</a></span>
                         <div class="twitterMessage">
                         In 1879, Thomas Edison first demonstrated his electric lightbulb to financial backers including JP Morgan. 
                         </div>
