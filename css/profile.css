@@ -48,6 +48,8 @@
     overflow: hidden;
 }
 
+
+
 .workContent {
        width: 98%;
 }
@@ -89,4 +91,11 @@
 
 .jobDesc {
        font-weight: 100;
+}
+
+.caption {
+    position: relative;
+    height: 25%;
+    width: 100%;
+    border: 1px solid black;
 }
