@@ -120,17 +120,45 @@
                 </div>
             </div>
             
-             <hr>
-                
-        <div id="companyQA"><h3 style="margin: 0; margin-bottom: 15px;">Q & A</h3>
-            <div class="question">
-            <b>What kind of enviromental standards does your company comply with?</b><br>
-                At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
-                
+            <hr>
+        
+            <div class="row">
+                <div id="companyQA"><h3 style="margin: 0; margin-bottom: 15px;">Q & A</h3>
+                    <div class="question">
+                    <b>What kind of enviromental standards does your company comply with?</b><br>
+                        At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
+
+                    </div>
+                </div>
             </div>
-        </div>
 
             <hr>
+        
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="companyQA">
+                        <h3 style="margin: 0; margin-bottom: 15px;">Facebook</h3>
+                        <div class="fbMessage">
+                        "At JPMorgan Chase & Co., we challenge ourselves daily to create a truly accessible and inclusive environment." Taskeen, Managing Director of Reference Data Strategy and Global Co-Chair of our Access Ability business resource group, recently shared her story on how caring for her son encouraged her to become an advocate for employees with disabilities and caregivers in the workplace. jpm.com/x/i/NFQoa2o
+                        </div>
+                        
+                        <div class="fbMessage">
+                            #‎GivingTuesday‬, a global day of giving, takes place on December 1. What are some of the ways you’ll give back this holiday season? jpm.com/x/i/NFQoCrU
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div id="companyQA">
+                        <h3 style="margin: 0; margin-bottom: 15px;">Twitter</h3>
+                        <div class="question">
+                            <b>What kind of enviromental standards does your company comply with?</b><br>
+                            At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- Footer -->
             <footer>
