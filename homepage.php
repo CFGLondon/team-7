@@ -234,7 +234,10 @@
                 
                <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <p>Welcome back, <?php     
+                        <p>Welcome back, 
+                        
+                        <?php     
+                            echo $_SESSION['loggedinUser'];
                             $query = "SELECT * FROM user WHERE user_id = " . $_SESSION['loggedinUser'];
                             $userrow = mysqli_query($conn, $query); //Execute query.
                             $row = $userrow->fetch_assoc();
@@ -242,7 +245,7 @@
                             if(mysqli_num_rows($userrow) > 0){
                                 echo "<a href='profile.php?id=" . $row['user_id'] . "'>" . $row['first_name'] . "</a>!";
                             }
-                            ?></p>
+                        ?></p>
                     </li>
                 </ul>
                 
