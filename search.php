@@ -113,7 +113,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
-    <title>Homepage</title>
+    <title>Search</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -138,8 +138,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.html">Homepage</a></li>
-                    <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
+                    <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.html">Homepage</a></li>
+                    <li class="active"><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -208,152 +208,6 @@
     <!-- Page Content -->
     <div class="container-fluid">
         <div class="row">
-
-
-            <div class="col-sm-3 well">
-
-                <h1 style="font-size: 20px;text-align:center;">Most Recent Jobs:</h1>
-                <table id="table2" class="table table-list-search table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th>Employer</th>
-                            <th>Opportunity</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">GWR</a>
-                            </td>
-                            <td>
-                                Train Driver
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-                <hr>
-                <h1 style="font-size: 20px;text-align:center;">Most Popular Jobs:</h1>
-                <p style="text-align:center;">In the last 24 hours</p>
-                <table id="table2" class="table table-list-search table-striped table-hover">
-                    <thead>
-                        <tr>
-                            <th>Employer</th>
-                            <th>Opportunity</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a href="#">JPM</a>
-                            </td>
-                            <td>
-                                Banker
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">JPM</a>
-                            </td>
-                            <td>
-                                Banker
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">JPM</a>
-                            </td>
-                            <td>
-                                Banker
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">JPM</a>
-                            </td>
-                            <td>
-                                Banker
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="#">JPM</a>
-                            </td>
-                            <td>
-                                Banker
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-
-            </div>
-
             <div class="col-sm-8 well" style="margin-left:5%">
                 <h1 style="text-align:center;">Your recommended jobs:</h1>
                 <table id="table1" class="table table-list-search table-striped table-hover">
