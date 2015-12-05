@@ -238,9 +238,6 @@
                         <p>Welcome back, 
                         
                         <?php     
-                            $userrow = mysqli_query($conn, $query); //Execute query.
-                            $row = $userrow->fetch_assoc();
-
                             $query = "SELECT * FROM user_events WHERE user_id = " . $_SESSION['loggedinUser'];
                             $userrow = mysqli_query($conn, $query); //Execute query.
 
