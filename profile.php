@@ -119,9 +119,9 @@
 
                             while ($row = $userrow->fetch_assoc()) {
                                 $query = "SELECT * FROM events WHERE event_id = " . $row['event_id'];
-                                $eventRow = mys
+                                $eventRow = mysqli_query($conn, $query); //Execute query
                            
-                                while ($row = $userrow->fetch_assoc()) {
+                                while ($row = $eventRow->fetch_assoc()) {
                                     echo '<div class="event"><div class="caption">' . $row['name'] . '</div></div>';
                                 }
                             }
