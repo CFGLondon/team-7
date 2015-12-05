@@ -40,16 +40,14 @@
                 data        : formData,
                 dataType    : 'json',
                 encode      : true,
-                error		: function(request, status, error) { 
-                    alert("Not working");
+                error		: function(request, status, error) {
                     console.log(request.responseText); 
                 },
                 success		: function(data) {
-                    alert("Hi");
                     if (data.error) {
                         console.log(data.error);
                     } else {
-                        window.location.replace("google.co.uk");
+                        window.location.replace("homepage.html");
                     }
                 }
             })

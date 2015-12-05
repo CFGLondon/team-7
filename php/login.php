@@ -7,7 +7,7 @@
 			$password = mysqli_real_escape_string($conn, $_POST['password']); //Set password as md5 encrypted user input in password field.
 			
 			//Query to select username and password from accounts table that are equal to the username and password inputted by user.
-			$query = "SELECT email, password FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
+			$query = "SELECT user_id, email, password FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
 			$userrow = mysqli_query($conn, $query); //Execute query.
 			
 			//If the username and password given by the user exist in the database, set a loggedin session with their username, 
@@ -15,7 +15,7 @@
 			//Also add a log to the log file, also specifying which user logged in and timestamp, and redirect user to the index/home page.
 			if(mysqli_num_rows($userrow) > 0){
 					
-				//$_SESSION['loggedinUser'] = $user_id;
+				$_SESSION['loggedinUser'] = $user_id;
 				$_SESSION['begin'] = time();
 				$_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
                 
