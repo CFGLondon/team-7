@@ -25,7 +25,7 @@
             ?>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <p class="navbar-text" style="color:white; padding: 0; margin: 0;">Already have an account?</p>
+                        <p class="navbar-text" style="color:white;">Already have an account?</p>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
