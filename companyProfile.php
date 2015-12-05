@@ -121,7 +121,14 @@
             </div>
             
              <hr>
-            <!-- /.row -->
+                
+        <div id="companyQA"><h3 style="margin: 0; margin-bottom: 15px;">Q & A</h3>
+            <div class="question">
+            <b>What kind of enviromental standards does your company comply with?</b><br>
+                At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
+                
+            </div>
+        </div>
 
             <hr>
 
