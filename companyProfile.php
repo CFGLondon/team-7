@@ -140,7 +140,7 @@
                         <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Facebook</h3><span class="subheader"><a href="https://www.facebook.com/jpmorganchasecareers" target="_blank">J.P. Morgan and Chase</a></span>
                         <div class="fbMessage">
                         "At JPMorgan Chase & Co., we challenge ourselves daily to create a truly accessible and inclusive environment." Taskeen, Managing Director of Reference Data Strategy and Global Co-Chair of our Access Ability business resource group, recently shared her story on how caring for her son encouraged her to become an advocate for employees with disabilities and caregivers in the workplace. jpm.com/x/i/NFQoa2o
-                        </div>
+                        </div><div class="belowMessage">December 2015</div>
                         
                         <div class="fbMessage">
                             #‎GivingTuesday‬, a global day of giving, takes place on December 1. What are some of the ways you’ll give back this holiday season? jpm.com/x/i/NFQoCrU
