@@ -57,7 +57,7 @@
 
 
             <div class="col-sm-3 well">
-
+                <!-- Start of most recent oppotunities box -->
                 <h1 style="font-size: 20px;text-align:center;">Most Recent Opportunities:</h1>
                 <table id="table2" class="table table-list-search table-striped table-hover">
                     <thead>
@@ -110,7 +110,9 @@
 
                     </tbody>
                 </table>
+                <!-- End most recent opportunities -->
                 <hr>
+                <!-- Start Most Popular Opportunities -->
                 <h1 style="font-size: 20px;text-align:center;">Most Popular:</h1>
                 <p style="text-align:center;">In the last 24 hours</p>
                 <table id="table2" class="table table-list-search table-striped table-hover">
@@ -163,10 +165,11 @@
                         </tr>
                     </tbody>
                 </table>
-
-
             </div>
-
+            <!-- End Most Popular Opportunities -->
+            
+            
+            <!-- Start recommended jobs -->
             <div class="col-sm-8 well" style="margin-left:5%">
                 <h1 style="text-align:center;">Recommended for you:</h1>
                 <table id="table1" class="table table-list-search table-striped table-hover">
@@ -293,11 +296,10 @@
                         </tr>
                     </tbody>
                 </table>
-
+                
             </div>
+            <!-- Start recommended jobs -->
         </div>
-
-
     </div>
 
 
