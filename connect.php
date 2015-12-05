@@ -5,5 +5,4 @@ mysqli_select_db($conn, 'Route21');
 if (!$conn) {
 	die("Connection failed: ".mysqli_connect_error());
 }
-echo "Connected";
 ?>
