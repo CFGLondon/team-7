@@ -58,7 +58,7 @@
             <hr>
 
             <div id="mainContent">
-                <div class="jobMainDescription"><h3>Job Description</h3><p>This will be a varied role working within the competence & Learning department of JP Morgan and will include a variety of tasks including:
+                <div class="jobMainDescription"><h3>Opportunity  Description</h3><p>This will be a varied role working within the competence & Learning department of JP Morgan and will include a variety of tasks including:
 
     Daily maintenance of training tools and processes
     Liaising with training providers and academies Dealing with queries from internal customers
@@ -68,6 +68,24 @@
     Involvement in Government funding project
     Data collection - Compilation of, and coordinating the data collection process. Producing weekly data analysis reports
     Liaising with external accountant
+</p></div>
+            </div>
+            
+            <hr>
+
+            <div id="mainContent">
+                <div class="jobMainDescription"><h3>Skills Required</h3><p>
+    MUST be an undergraduate returning to full time education in September 2017
+    MUST have the existing right to work in the UK
+    Be studying towards a relevant, ideally Food related, degree
+    Demonstrate a passion for product development and the Food or Health & Beauty industries
+    Excellent attention to detail and general PC skills
+    An ability to pick up skills and business information quickly and form successful working relationships.
+    Demonstrate a strong interest in gaining Product Development experience with the world’s largest Entertainment company!
+
+The role will suit an out-going student with good communication skills who is open to new learning experiences. The team is passionate and enthusiastic & there is lots of inter-country communication so a good command of the English language both written and orally is critical for success. English is the business language but not the first language of the majority of the team.
+
+The successful candidate is likely to be entrepreneurial & have a strong creative flair. A flexible approach and the ability to adapt to changing priorities are key as each day is different. The department is busy and works quickly to tight deadlines so the ability to make decisions and work under pressure are important also.
 </p></div>
             </div>
 
