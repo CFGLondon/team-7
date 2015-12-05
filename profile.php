@@ -1,9 +1,12 @@
 <?php 
-   /* include 'connect.php';
+   include 'connect.php';
 
-    $id = intval($_GET['id'])); 
+    $id = intval($_GET['id']) | $_SESSION['loggedinUser']; 
+    $query = "SELECT * FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
+    $userrow = mysqli_query($conn, $query); //Execute query.
 
-    if ($row) {
+    
+    if(mysqli_num_rows($userrow) > 0){
         $userid    = $userrow['user_id'];
         $firstName = $userrow['first_name'];
         $lastName     = $userrow['last_name'];
@@ -21,8 +24,6 @@
         
     }
 
-
-*/
 ?>
 
 <script>
