@@ -221,105 +221,105 @@
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">J.P. Morgan</a>
                 </b>
                             </td>
-                            <td>Senior Programmer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Programmer</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Work on important programming tasks and manage teams of programmers.</a></td>
+                            <td>Work on important programming tasks and manage teams of programmers.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">J.P. Morgan</a>
                 </b>
                             </td>
-                            <td>Experience Week in Industry</td></td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Experience Week in Industry</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Aimed at younger people, this experience will give you insight in working in the industry.</a></td>
+                            <td>Aimed at younger people, this experience will give you insight in working in the industry.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Google</a>
                 </b>
                             </td>
-                            <td>Senior Software Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Software Developer</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Manage software development teams.</a></td>
+                            <td>Manage software development teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Amazon</a>
                 </b>
                             </td>
-                            <td>Infrastructure Manager</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Infrastructure Manager</a></td>
                             <td>New York</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Manage infrastructure teams.</a></td>
+                            <td>Manage infrastructure teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Mitsubishi</a>
                 </b>
                             </td>
-                            <td>Software Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Software Developer</a></td>
                             <td>Cairo</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Role invoves the development of software.</a></td>
+                            <td>Role invoves the development of software.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">IBM</a>
                 </b>
                             </td>
-                            <td>Senior Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Developer</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Role invoves the development of software and management of teams.</a></td>
+                            <td>Role invoves the development of software and management of teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Google</a>
                 </b>
                             </td>
-                            <td>Infrastructure Manager</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Infrastructure Manager</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Manage infrastructure teams.</a></td>
+                            <td>Manage infrastructure teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Amazon</a>
                 </b>
                             </td>
-                            <td>Database Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Database Developer</a></td>
                             <td>New York</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Create and manage databases.</a></td>
+                            <td>Create and manage databases.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Mitsubishi</a>
                 </b>
                             </td>
-                            <td>Software Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Software Developer</a></td>
                             <td>Cairo</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Role invoves the development of software.</a></td>
+                            <td>Role invoves the development of software.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">IBM</a>
                 </b>
                             </td>
-                            <td>Senior Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Senior Developer</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Role invoves the development of software and management of teams.</a></td>
+                            <td>Role invoves the development of software and management of teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Google</a>
                 </b>
                             </td>
-                            <td>Infrastructure Manager</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Infrastructure Manager</a></td>
                             <td>London</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Manage infrastructure teams.</a></td>
+                            <td>Manage infrastructure teams.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Amazon</a>
                 </b>
                             </td>
-                            <td>Database Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Database Developer</a></td>
                             <td>New York</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Create and manage databases.</a></td>
+                            <td>Create and manage databases.</a></td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/companyProfile.php">Mitsubishi</a>
                 </b>
                             </td>
-                            <td>Software Developer</td>
+                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Software Developer</a></td>
                             <td>Cairo</td>
-                            <td><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Role invoves the development of software.</a></td>
+                            <td>Role invoves the development of software.</td>
                         </tr>
                     </tbody>
                 </table>
