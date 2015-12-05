@@ -1,7 +1,8 @@
 <?php
-$conn = mysqli_connect('127.0.0.1', 'root', 'code4code');
+$conn = mysqli_connect('127.0.0.1', 'root', 'code4good');
 
-if (isset($conn) == false) {
-	echo "<p>Didn't connect<p>";
+if (!$conn) {
+	echo die("Connection failed: ".mysqli_connect_error());
 }
+echo "Connected";
 ?>
