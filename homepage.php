@@ -24,6 +24,8 @@
     <!-- Custom CSS -->
     <link href="css/business-frontpage.css" rel="stylesheet">    
     <link href="css/navbar.css" rel="stylesheet">
+    
+    <script src="js/nav.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,37 +36,6 @@
 
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
-    <script>
-        $(function() {
-            $('#login-nav').submit(function(event) {
-                var formData = {
-                    'email': $('#exampleInputEmail2').val(),
-                    'password': $('#exampleInputPassword2').val()
-                };
-
-                $.ajax({
-                    type: 'POST',
-                    url: 'php/login.php',
-                    data: formData,
-                    dataType: 'json',
-                    encode: true,
-                    error: function(request, status, error) {
-                        console.log(request.responseText);
-                    },
-                    success: function(data) {
-                        if (data.error) {
-                            console.log(data.error);
-                        } else {
-                            window.location.replace("homepage.php");
-                        }
-                    }
-                })
-
-                event.preventDefault();
-            });
-        });
-
-    </script>
 </head>
 
 <body>
