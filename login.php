@@ -42,6 +42,7 @@
                 encode      : true,
                 error		: function(request, status, error) { console.log(request.responseText); },
                 success		: function(data) {
+                    alert("Hi");
                     if (data.error) {
                         console.log(data.error);
                     } else {
