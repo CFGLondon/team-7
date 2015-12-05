@@ -77,7 +77,7 @@
     </nav>
 
 	
-	<form action="post" id="register">
+	<form method="post" action="#"  id="register">
 		<h1>Register for Route 21 </h1>
 		<hr>
 		<br>
