@@ -32,7 +32,10 @@
         <!-- Navigation -->
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container">
-                
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.html">Homepage</a></li>
+                    <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
+                </ul>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container -->
