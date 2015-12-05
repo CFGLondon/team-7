@@ -234,7 +234,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><b><a href="#">IBM</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
                             <td>Senior Developer</td>
@@ -242,7 +242,7 @@
                             <td>You will develop software and do software devloping things :DD</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Googles</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Googles</a>
                 </b>
                             </td>
                             <td>The big manr</td>
@@ -250,7 +250,7 @@
                             <td>You will be the big player of the game and do many things like eat and play golf</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Amazon</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
                             <td>Chip Consumer</td>
@@ -258,7 +258,7 @@
                             <td>its getting too tired to be funny now :/</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Mitsubishi</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
                             <td>Help</td>
@@ -266,7 +266,7 @@
                             <td>I honestly have run out of ideas</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">IBM</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
                             <td>Senior Developer</td>
@@ -274,7 +274,7 @@
                             <td>You will develop software and do software devloping things :DD</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Google</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.phphttp://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.phphttp://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                 </b>
                             </td>
                             <td>The big manr</td>
@@ -282,7 +282,7 @@
                             <td>You will be the big player of the game and do many things like eat and play golf</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Amazon</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.phphttp://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
                             <td>Chip Consumer</td>
@@ -290,7 +290,7 @@
                             <td>its getting too tired to be funny now :/</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Mitsubishi</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
                             <td>Help</td>
@@ -298,7 +298,7 @@
                             <td>I honestly have run out of ideas</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">IBM</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
                             <td>Senior Developer</td>
@@ -306,7 +306,7 @@
                             <td>You will develop software and do software devloping things :DD</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Google</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                 </b>
                             </td>
                             <td>The big manr</td>
@@ -314,7 +314,7 @@
                             <td>You will be the big player of the game and do many things like eat and play golf</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Amazon</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
                             <td>Chip Consumer</td>
@@ -322,7 +322,7 @@
                             <td>its getting too tired to be funny now :/</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Mitsubishi</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
                             <td>Help</td>
