@@ -115,6 +115,7 @@
 			include "connect.php";			
 			$query = "INSERT INTO user (first_name, last_name, password, email, date_of_birth, postcode)VALUES ('$first', '$last', '$passOne', '$email', '$DOB', '$postcode')";
 			mysqli_query($conn, $query);
+			include "disconnect.php";
 		} else if ($passOne != null) {
 			echo "<script>alert(\"Passwords do not match\")</script>";
 		}
