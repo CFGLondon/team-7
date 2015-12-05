@@ -5,13 +5,15 @@
 			include '../connect.php';
 			$data = array();
 			$comment = mysqli_real_escape_string($conn, $_POST['comment']);
-			
-		      $comments = mysqli_real_escape_string($conn, $_POST['comment']);
             
-            $query = "INSERT INTO comments (user_id, comment) VALUES ('". $_SESSION['loggedinUser'] ."', '". $comments ."')";
-			$userrow = mysqli_query($conn, $query); //Execute query.
-			$row = $userrow->fetch_assoc();
-            
+            if($_SESSION['loggedinUser'] == null){
+                echo "<script>alert(\"Passwords do not match\")</script>";
+            } else {
+            include "connect.php";			
+			$query = "INSERT INTO comments (user_id, comment)VALUES ('$comment', '$_SESSION['loggedinUser']')";
+			mysqli_query($conn, $query);
+			include "disconnect.php";
+            }
             
         
 		} else {
