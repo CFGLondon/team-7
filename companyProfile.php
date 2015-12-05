@@ -87,16 +87,18 @@
             <hr>
 
             <div class="row">
-                <div id="sectionBody">
-                    <div class="sectionHeader"><h3 style="margin: 0;">Highest Rated Jobs</h3></div>
-                    <div class="eventContent">
-                        <ul>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                        </ul>
+                <div class="col-sm-12 nopadding">
+                    <div id="sectionBody">
+                        <div class="sectionHeader"><h3 style="margin: 0;">Highest Rated Jobs</h3></div>
+                        <div class="eventContent">
+                            <ul>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,16 +106,18 @@
              <hr>
 
             <div class="row">
-                <div id="sectionBody">
-                    <div class="sectionHeader"><h3 style="margin: 0;">Newest Jobs</h3></div>
-                    <div class="eventContent">
-                        <ul>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                            <div class="event">.</div>
-                        </ul>
+                <div class="col-sm-6 nopadding">
+                    <div id="sectionBody">
+                        <div class="sectionHeader"><h3 style="margin: 0;">Newest Jobs</h3></div>
+                        <div class="eventContent">
+                            <ul>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                                <div class="event">.</div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -121,11 +125,13 @@
             <hr>
         
             <div class="row">
-                <div id="companyQA"><h3 style="margin: 0; margin-bottom: 15px;">Q & A</h3>
-                    <div class="question">
-                    <b>What kind of enviromental standards does your company comply with?</b><br>
-                        At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
+                <div class="col-sm-12 nopadding">
+                    <div id="companyQA"><h3 style="margin: 0; margin-bottom: 15px;">Q & A</h3>
+                        <div class="question">
+                        <b>What kind of enviromental standards does your company comply with?</b><br>
+                            At JP Morgan we're strong advocates at looking after and caring for the enviromnent. So much so we've installed .....
 
+                        </div>
                     </div>
                 </div>
             </div>
