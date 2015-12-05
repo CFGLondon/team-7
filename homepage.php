@@ -108,6 +108,11 @@
             padding-top: 10px;
             color: #fff;
         }
+        
+        .navbar-right a {
+            color: #fff !important;
+            font-weight: bold;
+        }
 
     </style>
     <meta charset="utf-8">
