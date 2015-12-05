@@ -25,15 +25,15 @@
 .content {
 }
 
-#eventsAttended{
+#sectionBody{
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.eventsHeader {
+.sectionHeader {
 }
 
-.eventsBody {
+.eventContent {
     height: 200px;
     width: 100%;
 }
@@ -44,4 +44,32 @@
     border: 1px solid black;
     margin: 10px;
     display: inline-block;
+    overflow: hidden;
+}
+
+.workContent {
+       width: 98%;
+}
+
+.leftWork {
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    display: inline;
+}
+
+.rightWork{ 
+    float: right;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    
+}
+
+.leftWork, .rightWork {
+    width: 50%;
+    height: 250px;
+    opacity: 90%;
+}
+
+.jobTitle {
+    font-size: 20px;   
 }
