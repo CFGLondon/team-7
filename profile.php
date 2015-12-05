@@ -1,5 +1,5 @@
 <?php 
-    include 'connect.php';
+   /* include 'connect.php';
 
     $id = intval($_GET['id'])); 
 
@@ -22,7 +22,7 @@
     }
 
 
-
+*/
 ?>
 
 <script>
@@ -104,10 +104,7 @@
             <hr style="margin-top: -20px;">
 
             <div class="row">
-                <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b>
-                    <?php 
-echo ' '. $firstName .'</b><br><b>Email:</b> JesusChristLovesYou@gmail.com<br><b>Age:</b> 2015</br><b></b></div></div>';
-                        ?>
+                <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b>Jesus Christ</b>/b><br><b>Email:</b> JesusChristLovesYou@gmail.com<br><b>Age:</b> 2015</br><b></b></div></div>
                 <div id="rightBox"><h3>Skills and Interests</h3>Interest(s): <b><br>Christ<br>barns</b><br>Hate(s)<br><b>Inns</b></div>
             </div>
             <!-- /.row -->
