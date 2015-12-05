@@ -82,13 +82,12 @@
 		<hr>
 		<br>
 		<span>First name: </span>
-		<input type="text" name="name" placeholder="Name" class="form-control"><br>
+		<input type="text" name="firstName" placeholder="Name" class="form-control"><br>
 		<span>Last name: </span>
-		<input type="text" name="name" placeholder="Name" class="form-control"><br>
+		<input type="text" name="lastName" placeholder="Name" class="form-control"><br>
 		
 		<span>Date of birth: </span>
-		<input type="text" name="name" placeholder="Name" class="form-control"><br>
-		
+		<input type="text" name="DOB" placeholder="date of birth" class="form-control"><br>
 		
 		<span>Password:</span>
 		<input type="text" name="password" placeholder="password" class="form-control"><br>
@@ -96,34 +95,49 @@
 		<span>confirm password:</span>
 		<input type="text" name="password2" placeholder="confirm password" class="form-control"><br>
 		
-		
 		<span>postcode:</span>
 		<input type="text" name="postcode" placeholder="phone number" class="form-control"><br>
 		
 		<span>Email: </span>
 		<input type="text" name="email" placeholder="email" class="form-control"><br>
 		
-		<form>
+		
 		<span>avatar: </span>
 		<img src="profile-img-placeholder.gif"> </img>
-		<input type="text" name="email" placeholder="avatar" class="form-control"><br>
+		<input type="text" name="avatar" placeholder="avatar" class="form-control"><br>
 		
+		
+		<!-- not really a field going to get from previous page -->
 		<span>type: </span>
-		<input type="text" name="email" placeholder="type" class="form-control"><br>		
+		<input type="text" name="type" placeholder="type" class="form-control"><br>		
 	
+		
 		<span>Phone number:</span>
 		<input type="text" name="phone" placeholder="phone number" class="form-control"><br>
 		
-	
-		
-	
 	
 		<input type="submit" name="register" value="register" class="btn">
 	</form>
 	
 	<?php 
 	
-		if()
+		if(isset($_POST["firstName"])) && isset($_POST["lastName"]) && isset($_POST["DOB"]) && isset($_POST["password"]) && isset($_POST["password2"]) && isset($_POST["postcode"]) && isset($_POST["email"]) && isset($_POST["phone"])) {
+			$firstName = $_POST["firstName"];
+			$lastName = $_POST["lastName"];
+			$DOB = $_POST["DOB"];
+			$password = $_POST["password"];
+			$password2 = $_POST["password2"];
+			$postcode = $_POST["postcode"];
+			$email = $_POST["email"];
+			$phone = $_POST["phone"];
+			
+			var_dump($phone);
+			
+			
+			
+				
+	
+		}
 		
 		$stmt = "Insert into users()"
 			
