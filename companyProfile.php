@@ -140,11 +140,11 @@
                         <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Facebook</h3><span class="subheader"><a href="https://www.facebook.com/jpmorganchasecareers" target="_blank">J.P. Morgan and Chase</a></span>
                         <div class="fbMessage">
                         "At JPMorgan Chase & Co., we challenge ourselves daily to create a truly accessible and inclusive environment." Taskeen, Managing Director of Reference Data Strategy and Global Co-Chair of our Access Ability business resource group, recently shared her story on how caring for her son encouraged her to become an advocate for employees with disabilities and caregivers in the workplace. jpm.com/x/i/NFQoa2o
-                        </div><div class="belowMessage">December 2015</div>
+                        </div><div class="belowMessage">4th December 2015 at 12:32PM</div>
                         
                         <div class="fbMessage">
                             #‎GivingTuesday‬, a global day of giving, takes place on December 1. What are some of the ways you’ll give back this holiday season? jpm.com/x/i/NFQoCrU
-                        </div>
+                        </div><div class="belowMessage">3rd December 2015 at 10:28PM</div>
                     </div>
                 </div>
                 
@@ -153,11 +153,11 @@
                         <h3 style="margin: 0; margin-bottom: 25px; display: inline-block;">Twitter</h3><span class="subheader"><a href="https://twitter.com/jpmorgan" target="_blank">@JPMorgan</a></span>
                         <div class="twitterMessage">
                         In 1879, Thomas Edison first demonstrated his electric lightbulb to financial backers including JP Morgan. 
-                        </div>
+                        </div><div class="belowMessage">4th December 2015 at 8:42PM</div>
                         
                         <div class="twitterMessage">
                            New @jpmorgan report looks at Asian corporates to understand their appetite for M&A. http://jpm.com/x/j/NFMeBMl  
-                        </div>
+                        </div><div class="belowMessage">3rd December 2015 at 9:45AM</div>
                     </div>
                 </div>
             </div>

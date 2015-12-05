@@ -109,7 +109,6 @@
 }
 
 .fbMessage {
-    margin-bottom: 30px;
     background-color: #3357AE;
     color: #fff;
     padding: 15px;
@@ -130,6 +129,6 @@
 }
 
 .belowMessage {
+    margin-bottom: 30px;
     text-align:right;
-    padding-top: 5px;
 }
