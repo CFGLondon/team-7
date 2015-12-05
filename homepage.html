@@ -128,37 +128,38 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
     <script>
         $(function() {
             $('#login-nav').submit(function(event) {
-            var formData = {
-                'email' : $('#exampleInputEmail2').val(),
-                'password' : $('#exampleInputPassword2').val()
-            };
+                var formData = {
+                    'email': $('#exampleInputEmail2').val(),
+                    'password': $('#exampleInputPassword2').val()
+                };
 
-            $.ajax({
-                type        : 'POST',
-                url         : 'php/login.php',
-                data        : formData,
-                dataType    : 'json',
-                encode      : true,
-                error		: function(request, status, error) {
-                    console.log(request.responseText); 
-                },
-                success		: function(data) {
-                    if (data.error) {
-                        console.log(data.error);
-                    } else {
-                        window.location.replace("homepage.html");
+                $.ajax({
+                    type: 'POST',
+                    url: 'php/login.php',
+                    data: formData,
+                    dataType: 'json',
+                    encode: true,
+                    error: function(request, status, error) {
+                        console.log(request.responseText);
+                    },
+                    success: function(data) {
+                        if (data.error) {
+                            console.log(data.error);
+                        } else {
+                            window.location.replace("homepage.html");
+                        }
                     }
-                }
-            })
+                })
 
-            event.preventDefault();
+                event.preventDefault();
+            });
         });
-    });
+
     </script>
 </head>
 
@@ -255,7 +256,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -263,7 +264,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.phphttp://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -271,7 +272,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -279,7 +280,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -288,7 +289,7 @@
 
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -296,7 +297,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -304,7 +305,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -312,7 +313,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -320,7 +321,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">GWR</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">GWR</a>
                             </td>
                             <td>
                                 Train Driver
@@ -342,7 +343,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <a href="#">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
                             </td>
                             <td>
                                 Banker
@@ -350,7 +351,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
                             </td>
                             <td>
                                 Banker
@@ -358,7 +359,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
                             </td>
                             <td>
                                 Banker
@@ -366,7 +367,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
                             </td>
                             <td>
                                 Banker
@@ -374,7 +375,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="#">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
                             </td>
                             <td>
                                 Banker
@@ -399,7 +400,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><b><a href="#">IBM</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
                             <td>Senior Developer</td>
@@ -407,7 +408,7 @@
                             <td>You will develop software and do software devloping things :DD</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Googles</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Googles</a>
                 </b>
                             </td>
                             <td>The big manr</td>
@@ -415,7 +416,7 @@
                             <td>You will be the big player of the game and do many things like eat and play golf</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Amazon</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
                             <td>Chip Consumer</td>
@@ -423,7 +424,7 @@
                             <td>its getting too tired to be funny now :/</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Mitsubishi</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
                             <td>Help</td>
@@ -431,7 +432,7 @@
                             <td>I honestly have run out of ideas</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">IBM</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
                             <td>Senior Developer</td>
@@ -439,7 +440,7 @@
                             <td>You will develop software and do software devloping things :DD</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Google</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                 </b>
                             </td>
                             <td>The big manr</td>
@@ -447,7 +448,7 @@
                             <td>You will be the big player of the game and do many things like eat and play golf</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Amazon</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
                             <td>Chip Consumer</td>
@@ -455,7 +456,7 @@
                             <td>its getting too tired to be funny now :/</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Mitsubishi</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
                             <td>Help</td>
@@ -463,7 +464,7 @@
                             <td>I honestly have run out of ideas</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">IBM</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                 </b>
                             </td>
                             <td>Senior Developer</td>
@@ -471,7 +472,7 @@
                             <td>You will develop software and do software devloping things :DD</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Google</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                 </b>
                             </td>
                             <td>The big manr</td>
@@ -479,7 +480,7 @@
                             <td>You will be the big player of the game and do many things like eat and play golf</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Amazon</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
                 </b>
                             </td>
                             <td>Chip Consumer</td>
@@ -487,7 +488,7 @@
                             <td>its getting too tired to be funny now :/</td>
                         </tr>
                         <tr>
-                            <td><b><a href="#">Mitsubishi</a>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
                 </b>
                             </td>
                             <td>Help</td>
