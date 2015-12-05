@@ -64,7 +64,7 @@
             <hr style="margin-top: -20px;">
 
             <div class="row">
-                <div id="leftBox"><div class="content"><h3>Details</h4><b>Name: </b><?php echo($firstName); ?><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
+                <div id="leftBox"><div class="content"><h3>Details</h4><b>Name: </b><?php echo($firstName . ' ' . $secondName); ?><br><b>Email:</b> <?php echo($email); ?><br><b>Age:</b> ???</br><b></b></div></div>
             
                 <div id="rightBox"><h3>Skills and Interests</h3>
                     <?php
