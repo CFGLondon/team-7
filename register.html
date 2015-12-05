@@ -34,13 +34,13 @@
 		}
 		#register {
 			height: 400px;
-			width: 300px;
+			width: 345px;
 		}
 		
-		#searchBtn {
-		    position: relative;
-			left: 310px;
-			top: -55px;
+		
+		hr {
+			width: 300px;
+
 		}
 		
     </style>
@@ -75,33 +75,47 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
 	
-	<h1>Register for route 21</h1>
-	<form action="" id="register">
-	
-	
+	<form action="post" id="register">
+		<h1>Register for Route 21</h1>
+		<hr>
+		<br>
 		<span>Name: </span>
-		<input type="text" name="fname" placeholder="Name" class="form-control"><br>
+		<input type="text" name="name" placeholder="Name" class="form-control"><br>
 		
 		<span>Age: </span> 
-		<input type="text" name="fname" placeholder="Age" class="form-control"><br>
+		<input type="text" name="age" placeholder="Age" class="form-control"><br>
 	
 		<span>Phone number:</span>
-		<input type="text" name="fname" placeholder="phone number" class="form-control"><br>
+		<input type="text" name="phone" placeholder="phone number" class="form-control"><br>
 		
 		<span>Email: </span>
-		<input type="text" name="fname" placeholder="email" class="form-control"><br>
+		<input type="text" name="email" placeholder="email" class="form-control"><br>
 		
 		<span>Password:</span>
-		<input type="text" name="fname" placeholder="password" class="form-control"><br>
+		<input type="text" name="password" placeholder="password" class="form-control"><br>
 		
 		<span>confirm password:</span>
-		<input type="text" name="fname" placeholder="confirm password" class="form-control"><br>
+		<input type="text" name="password2" placeholder="confirm password" class="form-control"><br>
 	
-		<input type="submit" value="register" class="btn" id="searchBtn">
+		<input type="submit" name="register" value="register" class="btn">
 	</form>
-
+	
+	<?php 
+		if (isset($_POST["register"])) {
+			$fieldNames = {"name", "age", "phone", "email", "password", "password2"};
+			
+			for ($i = 0; $i < $fieldNames; $i++) {
+			
+			} 
+			
+			
+		}
+		
+		
+		$stmt = "Insert into users()"
+			
+	?>
 </body>
-
-
 </html>
