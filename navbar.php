@@ -4,10 +4,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <?php  if ($_SERVER['SCRIPT_NAME'] == "/homepage.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
+                    <?php  if ($_SERVER['SCRIPT_NAME'] == "/team7/homepage.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
     <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.php">Homepage</a></li>
                 
-                    <?php  if ($_SERVER['SCRIPT_NAME'] == "/search.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
+                    <?php  if ($_SERVER['SCRIPT_NAME'] == "/team7/search.php") { echo '<li class="active">'; } else { echo '<li>';} ?>
                     <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
                 </ul>
 
