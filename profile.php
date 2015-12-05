@@ -1,6 +1,4 @@
 <?php 
-    include 'connect.php';
-
     $query        = "SELECT * FROM users WHERE id = :id";
     $query_params = array(':id' => intval($_GET['id']));
     
