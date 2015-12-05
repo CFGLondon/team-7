@@ -74,11 +74,17 @@
                         while ($row = $userrow->fetch_assoc()) {
                             echo $row['description'] . '<br>';
                         }
-						echo "<form>
-							<input type = \"text\" value = \"New Skill/Interest\">
-							<select><option value = \"Skill\">Skill</option><option value = \"Interest\">Interest</option></select>
+						echo "<form method = \"get\">
+							<input type = \"text\" name = \"desc\" value = \"New Skill/Interest\">
+							<select name = \"type\"><option value = \"Skill\">Skill</option><option value = \"Interest\">Interest</option></select>
 							<input type = \"submit\" name = \"sub\">
 							</form>";
+							
+						$type = $_GET["type"];
+						$description = $_GET["desc"];
+							
+						$query = "INSERT INTO interest VALUES ('$type', '$description')";
+						mysqli_query($conn, $query);
                     ?>
                 </div>
             </div>
