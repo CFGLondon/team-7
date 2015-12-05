@@ -1,7 +1,7 @@
 <?php 
    include 'connect.php';
 
-    $id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
+    $id = isset($_GET['id']) ? intval($_GET['id']) : (isset($_SESSION['loggedinUser']) ? $_SESSION['loggedinUser'] : 1); 
     $query = "SELECT * FROM user WHERE user_id = " . $id;
     $userrow = mysqli_query($conn, $query); //Execute query.
     $row = $userrow->fetch_assoc();
