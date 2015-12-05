@@ -70,7 +70,7 @@
     </header>    
     
 	<form method="get" action="#"  id="register">
-		<h1>Registration</h1>
+        <center><h1>Registration</h1></center>
 		<hr>
 		<br>
 		<b>First name: </b>
