@@ -86,18 +86,18 @@
 	
 	<? 
 		
-		
-	
-		if(isset($_POST["createEvent"]))  {
-			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"]) {
-				
-				$conn = mysqli_connect('127.0.0.1', 'root', '');
+			$conn = mysqli_connect('127.0.0.1', 'root', '');
 				mysqli_select_db($conn, 'Route21');
 		
 				if (!$conn) {
 					die("Connection failed: ".mysqli_connect_error());
 				}
 				
+	
+		if(isset($_POST["createEvent"]))  {
+			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"]) {
+				
+			
 				
 				$eventName = $_POST["eventName"];
 				$date = $_POST["date"];
