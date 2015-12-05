@@ -137,6 +137,20 @@
                 <div id="sectionBody">
                     <div class="sectionHeader"><h3 style="margin: 0;">Work Experience</h3></div>
                     <div class="workContent">
+                        
+                        <?php
+                            $query = "SELECT * FROM user_opportunity_association WHERE user_id = " . $id;
+                            $userrow = mysqli_query($conn, $query); //Execute query.
+
+                            while ($row = $userrow->fetch_assoc()) {
+                                $query = "SELECT * FROM opportunities WHERE opportunity_id = " . $row['opportunity_id'];
+                                $eventRow = mysqli_query($conn, $query); //Execute query
+                           
+                                while ($row = $eventRow->fetch_assoc()) {
+                                    echo '<div class="leftWork"><div class="jobTitle">Carpenter</div><div class="jobLength">December 1632 - January 1946</div><div class="jobDesc"><b>Job Description -</b> </div></div>';
+                                }
+                            }
+                        
                         <div class="leftWork">
                             <div class="jobTitle">Carpenter</div>
                             <div class="jobLength">December 1632 - January 1946</div>
