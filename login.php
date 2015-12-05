@@ -27,30 +27,32 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
     <script>
-        $('#logForm').submit(function(event) {
-            alert("hi");
-        var formData = {
-            'email' : $('.logEmail').val(),
-            'password' : $('.logUserPass').val()
-        };
+        $(function() {
+            $('#logForm').submit(function(event) {
+                alert("hi");
+            var formData = {
+                'email' : $('.logEmail').val(),
+                'password' : $('.logUserPass').val()
+            };
 
-        $.ajax({
-            type        : 'POST',
-            url         : 'php/login.php',
-            data        : formData,
-            dataType    : 'json',
-            encode      : true,
-			error		: function(request, status, error) { console.log(request.responseText); },
-			success		: function(data) {
-				if (data.error) {
-                    console.log(data.error);
-				} else {
-					window.location.replace("google.co.uk");
-				}
-			}
-        })
-		
-        event.preventDefault();
+            $.ajax({
+                type        : 'POST',
+                url         : 'php/login.php',
+                data        : formData,
+                dataType    : 'json',
+                encode      : true,
+                error		: function(request, status, error) { console.log(request.responseText); },
+                success		: function(data) {
+                    if (data.error) {
+                        console.log(data.error);
+                    } else {
+                        window.location.replace("google.co.uk");
+                    }
+                }
+            })
+
+            event.preventDefault();
+        });
     });
     </script>
 </head>
