@@ -101,3 +101,7 @@ input#submit:hover {
     float: left;
     height: 400px;
 }
+
+.content {
+    text-align: left;
+}
