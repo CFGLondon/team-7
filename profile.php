@@ -79,13 +79,14 @@
 							<select name = \"type\"><option value = \"Skill\">Skill</option><option value = \"Interest\">Interest</option></select>
 							<input type = \"submit\" name = \"sub\">
 							</form>";
-							
+                    ?>
+					<?php
 						$type = $_GET["type"];
 						$description = $_GET["desc"];
 							
 						$query = "INSERT INTO interest VALUES ('$type', '$description')";
 						mysqli_query($conn, $query);
-                    ?>
+					?>
                 </div>
             </div>
             <!-- /.row -->
@@ -136,9 +137,6 @@
                                 }
                             }
                         ?>
-                        
-                        
-                        <
                 </div>
             </div>
             <!-- /.row -->
