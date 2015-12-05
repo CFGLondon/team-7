@@ -208,7 +208,7 @@
     <!-- Page Content -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8 well" style="margin-left:5%">
+            <div class="col-sm-12 well">
                 <h1 style="text-align:center;">Jobs:</h1>
                 <table id="table1" class="table table-list-search table-striped table-hover">
                     <thead>
