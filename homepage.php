@@ -186,42 +186,42 @@
                     <tbody>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
                             </td>
                             <td>
-                                Banker
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
-                            </td>
-                            <td>
-                                Banker
+                                Experience Week
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Google</a>
                             </td>
                             <td>
-                                Banker
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
-                            </td>
-                            <td>
-                                Banker
+                                Infrastructure Manager
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">JPM</a>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">IBM</a>
                             </td>
                             <td>
-                                Banker
+                                Senior Developer
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Amazon</a>
+                            </td>
+                            <td>
+                                Database Developer
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Mitsubishi</a>
+                            </td>
+                            <td>
+                                Software Developer
                             </td>
                         </tr>
                     </tbody>
@@ -249,6 +249,22 @@
                             <td>Software Developer</td>
                             <td>London</td>
                             <td>Role invoves the development of software.</td>
+                        </tr>
+                        <tr>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
+                </b>
+                            </td>
+                            <td>Senior Programmer</td>
+                            <td>London</td>
+                            <td>Work on important programming tasks and manage teams of programmers.</td>
+                        </tr>
+                        <tr>
+                            <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">J.P. Morgan</a>
+                </b>
+                            </td>
+                            <td>Experience Week in Industry</td></td>
+                            <td>London</td>
+                            <td>Aimed at younger people, this experience will give you insight in working in the industry.</td>
                         </tr>
                         <tr>
                             <td><b><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/opportunities.php">Googles</a>
