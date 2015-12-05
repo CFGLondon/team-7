@@ -240,9 +240,9 @@
                             $row = $userrow->fetch_assoc();
 
                             if(mysqli_num_rows($userrow) > 0){
-                                echo "<a href='profile.php?id=" . $row['user_id'] . ">" . $row['first_name'] . "</a>!";
+                                echo "<a href='profile.php?id=" . $row['user_id'] . "'>" . $row['first_name'] . "</a>!";
                             }
-                        
+                            ?></p>
                     </li>
                 </ul>
                 
