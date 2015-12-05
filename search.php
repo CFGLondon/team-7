@@ -97,6 +97,10 @@
         .table-hover tbody tr:hover th {
             background-color: #eeeeea;
         }
+        
+        table.dataTable {
+            margin-bottom: 15px;
+        }
 
     </style>
     <meta charset="utf-8">
