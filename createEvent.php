@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
 
-    <title>Register as a new user</title>
+    <title>Create Event | Route21</title>
 
     <!-- Bootstrap -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -105,13 +105,6 @@
 				}
 			}
 		}
-		
-
-		
-		
-		
-		
-	
 	?> 
 
 </body>

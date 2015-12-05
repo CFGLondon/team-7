@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
-    <title>Homepage</title>
+    <title>Home | Route21</title>
 
     <!-- Custom CSS -->
     <link href="css/business-frontpage.css" rel="stylesheet">

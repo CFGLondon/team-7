@@ -36,7 +36,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Company Profile - Route21</title>
+        <title>J.P. Morgan's Profile | Route21</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
