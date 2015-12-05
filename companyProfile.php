@@ -106,7 +106,7 @@
              <hr>
 
             <div class="row">
-                <div class="col-sm-6 nopadding">
+                <div class="col-sm-12 nopadding">
                     <div id="sectionBody">
                         <div class="sectionHeader"><h3 style="margin: 0;">Newest Jobs</h3></div>
                         <div class="eventContent">
