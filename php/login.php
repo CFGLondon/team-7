@@ -6,7 +6,7 @@
 			include '../connect.php'; //Open DB connection.
 			$data = array();
 			$email = mysqli_real_escape_string($conn, $_POST['log_email']); //Set username as user input in username field.
-			$password = mysqli_real_escape_string($conn, md5($_POST['log_password'])); //Set password as md5 encrypted user input in password field.
+			$password = mysqli_real_escape_string($conn, $_POST['log_password']); //Set password as md5 encrypted user input in password field.
 			$errorMessage = null;
 			
 			//Query to select username and password from accounts table that are equal to the username and password inputted by user.
