@@ -9,6 +9,11 @@
             float: none;
         }
         
+        
+        table.dataTable tr.odd td.sorting_1 {
+             background-color: #dcbe23 !important;
+        }
+        
         body {
             padding: 50px;
         }
@@ -174,13 +179,13 @@
                     <li class="active"><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/homepage.html">Homepage</a></li>
                     <li><a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/search.php">Search for Jobs</a></li>
                 </ul>
-                
-                <?php
-                    session_start();
-                    include 'connect.php';
-                
-                    if (!isset($_SESSION['loggedinUser'])) {
-                ?>
+
+            <?php
+                session_start();
+                include 'connect.php';
+
+                if (!isset($_SESSION['loggedinUser'])) {
+            ?>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <p class="navbar-text">Already have an account?</p>
@@ -221,7 +226,7 @@
                                         </form>
                                     </div>
                                     <div class="bottom text-center">
-                                        New here ? <a href="#"><b>Join Us</b></a>
+                                        New here ? <a href="http://ec2-54-78-185-241.eu-west-1.compute.amazonaws.com/team7/register.php"><b>Join Us</b></a>
                                     </div>
                                 </div>
                             </li>
@@ -229,7 +234,7 @@
                     </li>
                 </ul>
                 
-                <?php
+              <?php
                     } else {
                 ?>
                 
@@ -248,7 +253,7 @@
                     </li>
                 </ul>
                 
-                <?php } ?>
+                <?php } ?>  
             </div>
             <!-- /.navbar-collapse -->
         </div>
