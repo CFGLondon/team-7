@@ -97,17 +97,15 @@
             
                 <div id="rightBox"><h3>Skills and Interests</h3>
                     <?php
-                        $query = "SELECT * FROM interest WHERE user_id = " . $id . "ORDER BY type;" ;
+                        $query = "SELECT * FROM interest WHERE user_id = " . $id;
                         $userrow = mysqli_query($conn, $query); //Execute query.
 
                         while ($row = $userrow->fetch_assoc()) {
                             echo $row['description'] . '<br>';
                         }
                     ?>
-					
                 </div>
             </div>
-			
             <!-- /.row -->
 
             <hr>
@@ -156,7 +154,7 @@
                 </div>
             </div>
             <!-- /.row -->
-			
+
             <hr>
 
             <!-- Footer -->
