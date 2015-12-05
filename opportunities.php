@@ -29,7 +29,7 @@
 
     <body>
 
-        <!-- Navigation -->
+       <!-- Navigation -->
         <nav class="navbar navbar-inverse" role="navigation">
             <div class="container">
                 <ul class="nav navbar-nav">
@@ -92,6 +92,17 @@ The successful candidate is likely to be entrepreneurial & have a strong creativ
 </p></div>
             </div>
 
+            <hr>
+            
+            <div id="mainContent">
+                <div class="jobMainDescription">
+                    <h3>Comments</h3>
+                <div class="commentMain">"It's fantastic"</div>
+                <div class="commentUser">Jerry</div>
+                </div>
+                <div class="postAComment"><textarea></textarea></div>
+        
+            </div>
 
             <hr>
 
