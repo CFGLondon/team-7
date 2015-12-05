@@ -55,8 +55,8 @@
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <div style="text-align:center;margin-left:auto;margin-right:auto;">
-                                                        <input type="checkbox"> keep me logged-in</div>
+                                                    <div style="text-align:center;margin-left:auto;margin-right:auto; color:#000;">
+                                                        <input type="checkbox">Keep me logged-in</div>
 
                                                 </label>
                                             </div>
@@ -87,6 +87,7 @@
                             }
                         ?></p>
                         </li>
+                        <li><a href="">Logout</a></li>
                     </ul>
 
                     <?php } ?>
