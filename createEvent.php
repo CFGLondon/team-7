@@ -92,7 +92,7 @@
 		var_dump($conUp);
 	
 		if(isset($_POST["createEvent"]))  {
-			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"]) {
+			if(!empty($_POST["eventName"]) && !empty($_POST["date"]) && !empty($_POST["location"]) && !empty($_POST["description"])) {
 				
 			
 				
