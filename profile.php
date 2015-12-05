@@ -1,4 +1,35 @@
-    <!DOCTYPE html>
+<?php 
+    include 'connect.php';
+
+    $query        = "SELECT * FROM users WHERE id = :id";
+    $query_params = array(':id' => intval($_GET['id']));
+    
+    $stmt   = $db->prepare($query);
+    $result = $stmt->execute($query_params);
+    $row    = $stmt->fetch();
+    
+    if ($row) {
+        $userid    = $row['user_id'];
+        $firstName = $row['first_name'];
+        $lastName     = $row['last_name'];
+        $dob     = $row['date_of_birth'];
+        $postcode  = $row['postcode'];
+        $email = $row['email'];
+        $type = $row['type'];
+        $bio = $row['bio'];
+        $dateJoined = $row['date_joined'];
+        $phoneNo = $row['phone_number'];
+        
+        if ($row['bio']) {
+            $bio = $row['bio'];
+        }
+        
+    }
+?>
+    
+    
+
+<!DOCTYPE html>
     <html lang="en">
 
     <head>
@@ -9,7 +40,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Profile - Route21</title>
+        <title>Profile <?php print(isset($usersname) ? $usersname : 'Unknown'); ?> - Route21</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -72,7 +103,9 @@
             <hr style="margin-top: -20px;">
 
             <div class="row">
-                <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b>Jesus Christ</b><br><b>Email:</b> JesusChristLovesYou@gmail.com<br><b>Age:</b> 2015</br><b></b></div></div>
+                <div id="leftBox"><div class="content"><h3>Details</h4>Name: <b>
+                    <?php 
+echo ' '. $firstName .'</b><br><b>Email:</b> JesusChristLovesYou@gmail.com<br><b>Age:</b> 2015</br><b></b></div></div>';
                 <div id="rightBox"><h3>Skills and Interests</h3>Interest(s): <b><br>Christ<br>barns</b><br>Hate(s)<br><b>Inns</b></div>
             </div>
             <!-- /.row -->
