@@ -108,7 +108,7 @@
 				$conUp = mysqli_ping($conn);
 				var_dump($conUp);
 				
-				$stmnt = "INSERT INTO events VALUES(null, $eventName, $date, $location, $description, null, null, null)";		
+				$stmnt = "INSERT INTO events VALUES(null, $eventName, $date, $location, $desc, null, null, null)";		
 				
 				$result = mysqli_query($conn, $stmnt);
 				
