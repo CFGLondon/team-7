@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
 	if(isset($_POST['email'])){ //If there's data in the username field...
 		if(isset($_POST['password'])){ //If there's data in the password field...
 			include '../connect.php'; //Open DB connection.
@@ -15,7 +17,7 @@
 			//Also add a log to the log file, also specifying which user logged in and timestamp, and redirect user to the index/home page.
 			if(mysqli_num_rows($userrow) > 0){
 					
-				$_SESSION['loggedinUser'] = $user_id;
+				$_SESSION['loggedinUser'] = $userrow['user_id'];
 				$_SESSION['begin'] = time();
 				$_SESSION['expire'] = $_SESSION['begin'] + (3600); //expire login session after an hour.
                 

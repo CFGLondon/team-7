@@ -1,11 +1,10 @@
 <?php 
    include 'connect.php';
 
-    $id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
+    //$id = isset($_GET['id']) ? intval($_GET['id']) : $_SESSION['loggedinUser']; 
     $query = "SELECT * FROM user WHERE user_id = 1";
     $userrow = mysqli_query($conn, $query); //Execute query.
 
-    
     if(mysqli_num_rows($userrow) > 0){
         $userid    = $userrow['user_id'];
         $firstName = $userrow['first_name'];
@@ -13,14 +12,6 @@
         $dob     = $userrow['date_of_birth'];
         $postcode  = $userrow['postcode'];
         $email = $userrow['email'];
-        $type = $userrow['type'];
-        $bio = $userrow['bio'];
-        $dateJoined = $userrow['date_joined'];
-        $phoneNo = $userrow['phone_number'];
-        
-        if ($userrow['bio']) {
-            $bio = $userrow['bio'];
-        }
         
     }
 
@@ -31,7 +22,6 @@
     <html lang="en">
 
     <head>
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
