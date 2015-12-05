@@ -51,6 +51,9 @@
         <link href="css/profile.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
         
+        
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
         <script src="js/nav.js"></script>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -160,8 +163,6 @@
         </div>
         <!-- /.container -->
 
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>

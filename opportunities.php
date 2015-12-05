@@ -116,6 +116,9 @@
         <link href="css/opport.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
 
+        <script src="js/jquery.js"></script>
+        <script src="js/nav.js"></script>
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -227,10 +230,6 @@ The successful candidate is likely to be entrepreneurial & have a strong creativ
     </script>
 
         <!-- /.container -->
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
