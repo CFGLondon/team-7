@@ -21,13 +21,20 @@
 			left: 310px;
 			top: -55px;
 		}
+        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+		background-color: #eeeeea;
+		}
+		
     </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
     <title>Homepage</title>
 
     <!-- Bootstrap Core CSS -->
@@ -81,11 +88,20 @@
             
             </div>
             <div class="col-sm-8 well" style="margin-left:5%">
-                <form action="" id="search">
-		          <input type="text" name="fname" placeholder="search" class="form-control"><br>
-		          <input type="submit" value="Submit" class="btn" id="searchBtn">
-	           </form>
-            
+                 <table id="table1" class="table table-list-search table-striped table-hover">
+	
+    <thead>
+      <tr>
+        <th>Student Number</th>
+        <th>Student Name</th>
+		<th>i-Number</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr><td><b><a href="http://student21215.bucomputing.uk/">21215</a></b></td><td>Adam Rutherford</td><td>i7267923</td></tr> 
+        <tr><td><b><a href="http://student21215.bucomputing.uk/">21215</a></b></td><td>Adam Rutherford</td><td>i7267923</td></tr> 
+    </tbody>
+    </table>
             
             </div>
         </div>   
@@ -99,7 +115,11 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+<script>
+			$(document).ready( function () {
+				$('#table1').DataTable();
+			} );
+        </script>
 </body>
 
 </html>
