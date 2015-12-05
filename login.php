@@ -25,6 +25,33 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    
+    <script>
+        $('#logForm').submit(function(event) {
+        var formData = {
+            'email' : $('.logEmail').val(),
+            'password' : $('.logUserPass').val()
+        };
+
+        $.ajax({
+            type        : 'POST',
+            url         : 'php/login.php',
+            data        : formData,
+            dataType    : 'json',
+            encode      : true,
+			error		: function(request, status, error) { console.log(request.responseText); },
+			success		: function(data) {
+				if (data.error) {
+                    console.log(data.error);
+				} else {
+					window.location.replace("google.co.uk");
+				}
+			}
+        })
+		
+        event.preventDefault();
+    });
+    </script>
 </head>
 
 <body>
@@ -69,7 +96,7 @@
 
                     <div class="loginForm">
                         <form id="logForm" action="php/login.php" method="POST"> 
-                            <input type="text" name="log_username" placeholder="Username" class="logUserName textField" required/> 
+                            <input type="email" name="log_email" placeholder="Email" class="logUserName textField" required/> 
                             <input type="password" name="log_password" placeholder="Password" class="logUserPass textField" required/> 
 
                             <input type="submit" class="btn btn-info" value="Log In" id="submit"/>		 			
