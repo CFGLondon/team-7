@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-				<img src = "Assets/R21 Logo Light.png" alt = "Route 21">
+				<img src = "Assets/R21 Logo Light.png" alt = "Route 21" height = "50px" width = "150px">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
