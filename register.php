@@ -112,9 +112,9 @@
 		$postcode = $_GET[''];
 		
 		if ($passOne == $passTwo) {
-			echo "<script>alert(\"Passwords do match\")</script>"
+			echo "<script>alert(\"Passwords do match\")</script>";
 		} else {
-			echo "<script>alert(\"Passwords do not match\")</script>"
+			echo "<script>alert(\"Passwords do not match\")</script>";
 		}
 	?>
 
