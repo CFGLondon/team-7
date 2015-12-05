@@ -2,7 +2,7 @@
    include 'connect.php';
 
     $id = intval($_GET['id']) | $_SESSION['loggedinUser']; 
-    $query = "SELECT * FROM user WHERE email = '" . $email . "' AND password = '" . $password . "'";
+    $query = "SELECT * FROM user WHERE user_id = '" . $id . "'";
     $userrow = mysqli_query($conn, $query); //Execute query.
 
     
