@@ -97,6 +97,10 @@
                                     echo '<div class="event"><div class="caption">' . $row['name'] . '</div></div>';
                                 }
                             }
+							echo "<form>
+							<input type = \"text\" value = \"New Skill/Interest\">
+							<select><option value = \"Skill\">Skill</option><option value = \"Interest\">Interest</option></select>
+							</form>";
                         ?>
                     </div>
                 </div>
