@@ -151,7 +151,7 @@
                         if (data.error) {
                             console.log(data.error);
                         } else {
-                            window.location.replace("homepage.html");
+                            window.location.replace("homepage.php");
                         }
                     }
                 })
