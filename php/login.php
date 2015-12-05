@@ -1,8 +1,9 @@
 <?php
+    echo($_POST['email']);
+    echo ($_POST['password']);
 
 	if(isset($_POST['email'])){ //If there's data in the username field...
 		if(isset($_POST['password'])){ //If there's data in the password field...
-		
 			include '../connect.php'; //Open DB connection.
 			$data = array();
 			$email = mysqli_real_escape_string($conn, $_POST['email']); //Set username as user input in username field.
