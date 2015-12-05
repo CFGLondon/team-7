@@ -6,21 +6,12 @@
     $userrow = mysqli_query($conn, $query); //Execute query.
 
     if(mysqli_num_rows($userrow) > 0){
-        echo("Reached");
         $userid    = $userrow['user_id'];
         $firstName = $userrow['first_name'];
         $lastName     = $userrow['last_name'];
         $dob     = $userrow['date_of_birth'];
         $postcode  = $userrow['postcode'];
         $email = $userrow['email'];
-        $type = $userrow['type'];
-        $bio = $userrow['bio'];
-        $dateJoined = $userrow['date_joined'];
-        $phoneNo = $userrow['phone_number'];
-        
-        if ($userrow['bio']) {
-            $bio = $userrow['bio'];
-        }
         
     }
 
