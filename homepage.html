@@ -31,11 +31,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
-	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
 
     <title>Homepage</title>
 
@@ -84,24 +83,55 @@
     <!-- Page Content -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 well" style="height: 20%;">
+            <div class="col-sm-3 well">
                 <h1 style="font-size: 20px;text-align:center;">Your Account:</h1>
                 To be filled later
             
             </div>
             <div class="col-sm-8 well" style="margin-left:5%">
-                 <table id="table1" class="table table-list-search table-striped table-hover">
-	
+                
+<table id="table1" class="table table-list-search table-striped table-hover">
     <thead>
       <tr>
-        <th>Student Number</th>
-        <th>Student Name</th>
-		<th>i-Number</th>
+        <th>Employer</th>
+        <th>Opportunity</th>
+		<th>Location</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
-        <tr><td><b><a href="http://student21215.bucomputing.uk/">21215</a></b></td><td>Adam Rutherford</td><td>i7267923</td></tr> 
-        <tr><td><b><a href="http://student21215.bucomputing.uk/">21215</a></b></td><td>Adam Rutherford</td><td>i7267923</td></tr> 
+        <tr>
+            <td><b><a href="#">IBM</a>
+                </b>
+            </td>
+            <td>Senior Developer</td>
+            <td>London</td>
+            <td>You will develop software and do software devloping things :DD</td>
+        </tr> 
+        <tr>
+            <td><b><a href="#">Google</a>
+                </b>
+            </td>
+            <td>The big manr</td>
+            <td>London</td>
+            <td>You will be the big player of the game and do many things like eat and play golf</td>
+        </tr> 
+        <tr>
+            <td><b><a href="#">Amazon</a>
+                </b>
+            </td>
+            <td>Chip Consumer</td>
+            <td>New York</td>
+            <td>its getting too tired to be funny now :/</td>
+        </tr> 
+        <tr>
+            <td><b><a href="#">Mitsubishi</a>
+                </b>
+            </td>
+            <td>Help</td>
+            <td>Cairo</td>
+            <td>I honestly have run out of ideas</td>
+        </tr> 
     </tbody>
     </table>
             
@@ -117,11 +147,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     
-<script>
-			$(document).ready( function () {
-				$('#table1').DataTable();
-			} );
-        </script>
+<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+  <script>
+  $(function(){
+    $("#table1").dataTable();
+  })
+  </script>
 </body>
 
 </html>
