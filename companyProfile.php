@@ -81,8 +81,8 @@
             <hr style="margin-top: -30px;">
 
             <div class="row">
-                <div id="leftBox"><div class="content"><h3>Details</h4>Comany Name: <b>JP Morgan Chase</b><br><b>Contact Email:</b> contactUs@jpmorgan.com<br><b>Sector: </b> Technology</br><b></b></div></div>
-                <div id="rightBox"><h3>Skills and Interests</h3>Interest(s): <b><br>Christ<br>barns</b><br>Hate(s)<br><b>Inns</b></div>
+                <div id="leftBox"><div class="content"><h3>Details</h4><b>Comany Name: </b>JP Morgan Chase<br><b>Contact Email:</b> contactUs@jpmorgan.com<br><b>Sector: </b> Technology</br><b></b></div></div>
+            <div id="rightBox"><h3>Company Background</h3><b>Established:</b> 2000<br><b>Headquaters: </b>New York City</div>
             </div>
             <!-- /.row -->
 
@@ -90,7 +90,7 @@
 
             <div class="row">
                 <div id="sectionBody">
-                    <div class="sectionHeader"><h3 style="margin: 0;">Events Attended</h3></div>
+                    <div class="sectionHeader"><h3 style="margin: 0;">Highest Rated Jobs</h3></div>
                     <div class="eventContent">
                         <ul>
                             <div class="event">.</div>
@@ -107,24 +107,20 @@
 
             <div class="row">
                 <div id="sectionBody">
-                    <div class="sectionHeader"><h3 style="margin: 0;">Work Experience</h3></div>
-                    <div class="workContent">
-                        <div class="leftWork">
-                            <div class="jobTitle">Carpenter</div>
-                            <div class="jobLength">December 1632 - January 1946</div>
-                            <div class="jobDesc"><b>Job Description -</b> </div>
-                        </div>
-                        <div class="rightWork">
-                            <div class="jobTitle">Housekeeper</div>
-                            <div class="jobLength">June 1997 - September 2012</div>
-                            <div class="jobDesc"><b>Job Description -</b></div>
-                        </div>
-                        <div class="leftWork">
-                            <div class="jobTitle">Carpenter</div></div>
-                        <div class="rightWork"></div>
+                    <div class="sectionHeader"><h3 style="margin: 0;">Newest Jobs</h3></div>
+                    <div class="eventContent">
+                        <ul>
+                            <div class="event">.</div>
+                            <div class="event">.</div>
+                            <div class="event">.</div>
+                            <div class="event">.</div>
+                            <div class="event">.</div>
+                        </ul>
                     </div>
                 </div>
             </div>
+            
+             <hr>
             <!-- /.row -->
 
             <hr>
