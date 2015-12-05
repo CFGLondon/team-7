@@ -1,5 +1,5 @@
 .profileBanner {
-   height: 50%;       
+   height:220px;       
 }
 
 .profileImage {
@@ -22,7 +22,8 @@
     float: right;   
 }
 
-.content {
+.eventContent {
+    text-align:center;
 }
 
 #sectionBody{
