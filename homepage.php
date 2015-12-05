@@ -238,7 +238,7 @@
                         <p>Welcome back, 
                         
                         <?php     
-                            $query = "SELECT * FROM user_events WHERE user_id = " . $_SESSION['loggedinUser'];
+                            $query = "SELECT * FROM user WHERE user_id = " . $_SESSION['loggedinUser'];
                             $userrow = mysqli_query($conn, $query); //Execute query.
 
                             while ($row = $userrow->fetch_assoc()) {
